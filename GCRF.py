@@ -167,34 +167,34 @@ def S(connect,Se,Xst):
                     
         return Se
 
-path = 'Proba.xlsx'
-df = pd.read_excel(path)
-R = df.iloc[:,:2].values
-NodeNo = 4
-Nopoint = R.shape[0]
-Noinst = np.round(Nopoint/NodeNo).astype(int)
-i1 = np.arange(NodeNo)
-i2 = np.arange(Noinst)
-Xst = df.iloc[:,2:]
-Xst['Node'] = np.tile(i1, Noinst)
-Xst['Inst'] = np.repeat(i2,NodeNo)
-Xst = Xst.set_index(['Inst','Node'])
-connect1=np.array([[0,1],[1,2]])
-connect2=np.array([[0,1],[2,3]])
-connect=[connect1,connect2]
-NoGraph = len(connect)
-Se = np.zeros([Noinst,NoGraph,NodeNo,NodeNo])
-Se = S(connect,Se,Xst)
+# path = 'Proba.xlsx'
+# df = pd.read_excel(path)
+# R = df.iloc[:,:2].values
+# NodeNo = 4
+# Nopoint = R.shape[0]
+# Noinst = np.round(Nopoint/NodeNo).astype(int)
+# i1 = np.arange(NodeNo)
+# i2 = np.arange(Noinst)
+# Xst = df.iloc[:,2:]
+# Xst['Node'] = np.tile(i1, Noinst)
+# Xst['Inst'] = np.repeat(i2,NodeNo)
+# Xst = Xst.set_index(['Inst','Node'])
+# connect1=np.array([[0,1],[1,2]])
+# connect2=np.array([[0,1],[2,3]])
+# connect=[connect1,connect2]
+# NoGraph = len(connect)
+# Se = np.zeros([Noinst,NoGraph,NodeNo,NodeNo])
+# Se = S(connect,Se,Xst)
 
 
-mod1 = GCRF()
-mod1.alfa = np.array([0.8,0.5])
-mod1.beta = np.array([5,22])
-vrednosti = mod1.predict(R,Se)
+# mod1 = GCRF()
+# mod1.alfa = np.array([0.8,0.5])
+# mod1.beta = np.array([5,22])
+# vrednosti = mod1.predict(R,Se)
 
-mod1.fit(R,Se,vrednosti, learn = 'TNC')
-vrednosti1 = mod1.predict(R,Se)
-broj = vrednosti.shape[0]*vrednosti.shape[1]
-print('MSE score je {} '.format(mean_squared_error(vrednosti.reshape(broj),vrednosti1.reshape(broj))))
-print('MSE score je {} '.format(mean_squared_error(vrednosti.reshape(broj),R[:,0])))
-print('MSE score je {} '.format(mean_squared_error(vrednosti.reshape(broj),R[:,1])))
+# mod1.fit(R,Se,vrednosti, learn = 'TNC')
+# vrednosti1 = mod1.predict(R,Se)
+# broj = vrednosti.shape[0]*vrednosti.shape[1]
+# print('MSE score je {} '.format(mean_squared_error(vrednosti.reshape(broj),vrednosti1.reshape(broj))))
+# print('MSE score je {} '.format(mean_squared_error(vrednosti.reshape(broj),R[:,0])))
+# print('MSE score je {} '.format(mean_squared_error(vrednosti.reshape(broj),R[:,1])))
