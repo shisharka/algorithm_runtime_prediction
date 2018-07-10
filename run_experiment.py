@@ -1,44 +1,73 @@
-from train_ridge_regression_model import *
+from read_data import *
+import plain_ridge as rr_plain
+import plain_ridge_with_interactions as rr_plain2
+import ridge_with_ffs as rr_ffs
+import ridge_with_pca as rr_pca
+import ridge_with_rfe as rr_rfe
+import ridge_with_rfe_cv as rr_rfe_cv
+import random_forest as rf
+import random_forest_tuning_metaparams as rf2
 
-SET_NAMES = ['IBM-ALL',
-             'IBM-SWV-INDU',
-             'IBM-SWV',
-             'INDU-HAND-RAND',
-             'QCP-ALL',
-             'QCP-SAT',
-             'SAT_Competition_RACE_HAND',
-             'SAT_Competition_RACE_INDU',
-             'SAT_Competition_RACE_RAND',
-             'SWGCP-ALL',
-             'SWV']
+SOLVER_SET_NAMES = {
+  # 'minisat': ['INDU-HAND-RAND',
+  #             'SAT_Competition_RACE_HAND',
+  #             'SAT_Competition_RACE_RAND',
+  #             'SAT_Competition_RACE_INDU',
+  #             'IBM-SWV',
+  #             'IBM-ALL',
+  #             'SWV'],
 
-for set_name in SET_NAMES:
-  X, Y = read_data(set_name)
+  'cryptominisat': [#'SAT_Competition_RACE_INDU',
+                    'IBM-SWV',
+                    'IBM-ALL',
+                    'SWV'],
 
-  # train_ridge_regression_model(X, Y, set_name)
-  # Output:
-  # IBM-ALL test RMSE: 426865.232115
-  # IBM-SWV-INDU test RMSE: 1075.28825007
-  # IBM-SWV test RMSE: 641.238659529
-  # INDU-HAND-RAND test RMSE: 1379.59287058
-  # QCP-ALL test RMSE: 67.3003649458
-  # QCP-SAT test RMSE: 287.371432033
-  # SAT_Competition_RACE_HAND test RMSE: 1252.8796923
-  # SAT_Competition_RACE_INDU test RMSE: 1251.72677966
-  # SAT_Competition_RACE_RAND test RMSE: 882.406349045
-  # SWGCP-ALL test RMSE: 255.217111066
-  # SWV test RMSE: 0.360709881881
+  'spear': ['SAT_Competition_RACE_INDU',
+            'IBM-SWV',
+            'IBM-ALL',
+            'SWV'],
 
-  nested_cv(X, Y, set_name)
-  # Output:
-  # IBM-ALL test RMSE: 74189.0667692
-  # IBM-SWV-INDU test RMSE: 1445.34487284
-  # IBM-SWV test RMSE: 470.289016472
-  # INDU-HAND-RAND test RMSE: 1378.66325249
-  # QCP-ALL test RMSE: 62.3454788267
-  # QCP-SAT test RMSE: 91.850178902
-  # SAT_Competition_RACE_HAND test RMSE: 1560.06349696
-  # SAT_Competition_RACE_INDU test RMSE: 1884.27447752
-  # SAT_Competition_RACE_RAND test RMSE: 1184.59263688
-  # SWGCP-ALL test RMSE: 130.80471732
-  # SWV test RMSE: 0.215628428283
+  'tnm': ['SAT_Competition_RACE_RAND_SAT'],
+
+  'saps': ['SAT_Competition_RACE_RAND_SAT']
+}
+
+for solver_name, set_names in SOLVER_SET_NAMES.items():
+  for set_name in set_names:
+    X, Y = read_data(set_name, solver_name)
+
+    # print('Ridge regression model...')
+    # rmse = rr_plain.validate(X, Y)
+    # print(solver_name, set_name, 'RMSE:', rmse)
+
+    # print('Ridge regression model with interactions...')
+    # rmse = rr_plain2.validate(X, Y)
+    # print(solver_name, set_name, 'RMSE:', rmse)
+
+    # print('Ridge regression model with forward feature selection...')
+    # rmse = rr_ffs.validate(X, Y)
+    # print(solver_name, set_name, 'RMSE:', rmse)
+
+    # print('Ridge regression model with PCA feature selection...')
+    # rmse = rr_pca.validate(X, Y)
+    # print(solver_name, set_name, 'RMSE:', rmse)
+
+    # print('Ridge regression model with recursive feature elimination...')
+    # rmse = rr_rfe.validate(X, Y)
+    # print(solver_name, set_name, 'RMSE:', rmse)
+
+    # print('Ridge regression model with recursive feature elimination (number of features determined with cv)...')
+    # rmse = rr_rfe_cv.validate(X, Y)
+    # print(solver_name, set_name, 'RMSE:', rmse)
+
+    # print('Random forest model...')
+    # rmse = rf.validate(X, Y)
+    # print(solver_name, set_name, 'RMSE:', rmse)
+
+    print('Random forest model with metaparam tuning...')
+    rmse = rf2.validate(X, Y)
+    print(solver_name, set_name, 'RMSE:', rmse)
+
+    print("\n")
+
+  print("\n\n")
