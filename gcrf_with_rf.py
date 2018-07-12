@@ -15,7 +15,7 @@ datasets = [
 RAND = 1234
 DELTA = 1e-5
 SVD = False
-LEARN = 'TNC'
+LEARN = 'SLSQP'
 
 # Function for calculating similarity matrix for Y (columns in Y are solver representations);
 # delta is similarity metaparameter;
@@ -44,7 +44,8 @@ def S(Y, delta, svd=False):
 
 def determine_similarity_metaparam(X, Y):
   num_solvers = Y.shape[1]
-  deltas = 10**np.linspace(-6, 0, 7)
+  # deltas = 10**np.linspace(-6, 0, 7)
+  deltas = np.linspace(0.01, 0.1, 10)
   mean_square_errors = np.array([])
   
   gcrf = GCRF()
@@ -52,6 +53,7 @@ def determine_similarity_metaparam(X, Y):
   kf = KFold(n_splits=5, shuffle=True, random_state=RAND)
 
   for d in deltas:
+    scores = np.array([])
     i = 0
     for (train_index, test_index) in kf.split(X, Y):
       i += 1; print(i)
@@ -80,10 +82,11 @@ def determine_similarity_metaparam(X, Y):
 
       gcrf.fit(R_train.reshape(num_train_instances * num_solvers, 1), Se_train, Y_train, learn=LEARN)
       predictions = gcrf.predict(R_test.reshape(num_test_instances * num_solvers, 1), Se_test)
+      n = Y_test.shape[0] * num_solvers
+      scores = \
+        np.append(scores, mean_squared_error(Y_test.reshape(n), predictions.reshape(n)))
 
-    n = Y_test.shape[0] * num_solvers
-    mean_square_errors = \
-      np.append(mean_square_errors, mean_squared_error(Y_test.reshape(n), predictions.reshape(n)))
+    mean_square_errors = np.append(mean_square_errors, scores.mean())
 
   # ploting mse w.r.t metaparameter delta
   plt.plot(deltas, mean_square_errors)
