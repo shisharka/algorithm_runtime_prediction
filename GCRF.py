@@ -10,6 +10,7 @@ import pandas as pd
 import warnings
 warnings.filterwarnings('ignore')
 from scipy.optimize import minimize
+from scipy.optimize import differential_evolution
 import scipy as sp
 from sklearn.metrics import mean_squared_error
 
@@ -139,6 +140,11 @@ class GCRF:
             res = minimize(L, x0, method='TNC', jac=dLdX, args=(ModelUNNo,NoGraph,NodeNo,Noinst,R,Se,y), options={'disp': True,'maxiter':300},bounds=bnd)
             self.alfa = res.x[:ModelUNNo]
             self.beta = res.x[ModelUNNo:]
+        elif learn == 'SLSQP':
+            bnd = ((1e-8,None),)*(NoGraph+ModelUNNo)
+            res = minimize(L, x0, method='SLSQP', jac=dLdX, args=(ModelUNNo,NoGraph,NodeNo,Noinst,R,Se,y), options={'disp': True,'maxiter':300},bounds=bnd)
+            self.alfa = res.x[:ModelUNNo]
+            self.beta = res.x[ModelUNNo:]
         elif learn == 'EXP':
             x = x0
             u1 = np.log(x0)            
@@ -150,6 +156,11 @@ class GCRF:
                 
             self.alfa = x[:ModelUNNo] 
             self.beta = x[ModelUNNo:]
+        elif learn == 'DIF':
+            bnd = [(1e-8, 1e8)]*(NoGraph+ModelUNNo)
+            res = differential_evolution(L, bnd, args=(ModelUNNo,NoGraph,NodeNo,Noinst,R,Se,y))
+            self.alfa = res.x[:ModelUNNo]
+            self.beta = res.x[ModelUNNo:]
   
 """ PROBA NA SIN. PODACIMA """
 
