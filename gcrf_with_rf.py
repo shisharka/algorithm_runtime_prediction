@@ -250,5 +250,5 @@ for dataset in datasets:
     gcrf_predictions[outer_test_index, :] = gcrf.predict(R_test.reshape(num_test_instances * num_solvers, 1), Se_test)
     rf_predictions[outer_test_index, :] = R_test
 
-  np.save('predictions/' + dataset + '_rf_3.npy', rf_predictions)
-  np.save('predictions/' + dataset + '_gcrf_3.npy', gcrf_predictions)
+  np.save('predictions/' + dataset + '_rf_svd_tweaking_metaparams.npy', rf_predictions)
+  np.save('predictions/' + dataset + '_gcrf_svd_tweaking_metaparams.npy', gcrf_predictions)
