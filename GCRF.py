@@ -145,6 +145,11 @@ class GCRF:
             res = minimize(L, x0, method='SLSQP', jac=dLdX, args=(ModelUNNo,NoGraph,NodeNo,Noinst,R,Se,y), options={'disp': True,'maxiter':300},bounds=bnd)
             self.alfa = res.x[:ModelUNNo]
             self.beta = res.x[ModelUNNo:]
+        elif learn == 'L-BFGS-B':
+            bnd = ((1e-8,None),)*(NoGraph+ModelUNNo)
+            res = minimize(L, x0, method='L-BFGS-B', jac=dLdX, args=(ModelUNNo,NoGraph,NodeNo,Noinst,R,Se,y), options={'disp': True,'maxiter':1000},bounds=bnd)
+            self.alfa = res.x[:ModelUNNo]
+            self.beta = res.x[ModelUNNo:]
         elif learn == 'EXP':
             x = x0
             u1 = np.log(x0)            
