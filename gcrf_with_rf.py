@@ -155,10 +155,6 @@ def determine_metaparams(X, Y):
 
       mean_square_errors = np.append(mean_square_errors, cv_scores.mean())
 
-    min_index = d_scores.argmin()
-    optimal_dim_reductions = np.append(optimal_dim_reductions, dim_reductions[min_index])
-
-
     min_index = mean_square_errors.argmin()
     optimal_dim_reduction_mses = np.append(optimal_dim_reduction_mses, mean_square_errors.min())
     optimal_dim_reductions = np.append(optimal_dim_reductions, dim_reductions[min_index])

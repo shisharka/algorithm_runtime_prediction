@@ -18,7 +18,7 @@ def determine_metaparams(X_train, Y_train):
       mean_square_errors = numpy.append(mean_square_errors, -cv_scores.mean())
 
     min_index = mean_square_errors.argmin()
-    optimal_split_ratio_mses = mean_square_errors[min_index]
+    optimal_split_ratio_mses = mean_square_errors.min()
     optimal_split_ratios = numpy.append(optimal_split_ratios, split_ratios[min_index])
   
   min_index = optimal_split_ratio_mses.argmin()
