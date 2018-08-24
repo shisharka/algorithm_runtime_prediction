@@ -1,0 +1,5 @@
+Ridge regression model with interactions...
+Traceback (most recent call last):
+  File "run_experiment.py", line 44, in <module>
+    rmse, r2 = rr_plain2.validate(X, Y)
+NameError: name 'rr_plain2' is not defined

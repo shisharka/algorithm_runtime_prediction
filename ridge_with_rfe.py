@@ -45,7 +45,8 @@ def validate(X, Y):
   Y = log10_transform(Y)
 
   kf = model_selection.KFold(n_splits=10, shuffle=True, random_state=RAND)
-  fold_rmses = numpy.array([])
+  # fold_rmses = numpy.array([])
+  predictions = numpy.zeros(Y.shape)
 
   i = 0
   for train_index, test_index in kf.split(X, Y):
@@ -68,11 +69,11 @@ def validate(X, Y):
 
     ### feature selection ###
     # alpha = DEFAULT_REG_PARAM
-    n = NUM_L_FEATURES
+    # n = NUM_L_FEATURES
     print('Reg metaparam for first feature selection:')
     alpha = determine_regularization_metaparam(X_train_new, Y_train)
     print('---------------------------------------')
-    # n = determine_num_feat_for_selection(X_train_new, Y_train, MAX_NUM_L_FEATURES, alpha)
+    n = determine_num_feat_for_selection(X_train_new, Y_train, MAX_NUM_L_FEATURES, alpha)
     selection = RFE(linear_model.Ridge(alpha=alpha), n, step=1).fit(X_train_new, Y_train)
     X_train = selection.transform(X_train)
     X_test = selection.transform(X_test)
@@ -92,11 +93,11 @@ def validate(X, Y):
     X_test = standardize(X_test, mean_vec, std_vec)
 
     ### second feature selection ###
-    n = NUM_Q_FEATURES
+    # n = NUM_Q_FEATURES
     # print('Reg metaparam for second feature selection:')
     # alpha = determine_regularization_metaparam(X_train, Y_train)
     # print('---------------------------------------')
-    # n = determine_num_feat_for_selection(X_train, Y_train, MAX_NUM_Q_FEATURES, alpha)
+    n = determine_num_feat_for_selection(X_train, Y_train, MAX_NUM_Q_FEATURES, alpha)
     selection = RFE(linear_model.Ridge(alpha=alpha), n, step=1).fit(X_train, Y_train)
     X_train = selection.transform(X_train)
     X_test = selection.transform(X_test)
@@ -105,7 +106,10 @@ def validate(X, Y):
     ridge = linear_model.Ridge(alpha=alpha)
     ridge.fit(X_train, Y_train)
     Y_predicted = ridge.predict(X_test)
-    mse = metrics.mean_squared_error(Y_test, Y_predicted)
-    fold_rmses = numpy.append(fold_rmses, numpy.sqrt(mse))
+    predictions[test_index] = Y_predicted
+    # mse = metrics.mean_squared_error(Y_test, Y_predicted)
+    # fold_rmses = numpy.append(fold_rmses, numpy.sqrt(mse))
 
-  return fold_rmses.mean()
+  # return fold_rmses.mean()
+  return metrics.mean_squared_error(predictions, Y), metrics.r2_score(predictions, Y)
+

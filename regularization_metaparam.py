@@ -2,7 +2,7 @@ import numpy
 from sklearn import linear_model
 from sklearn import model_selection
 from sklearn import metrics
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 
 DEFAULT_REG_PARAM = 1e-2 # default regularization param used for forward feature selection

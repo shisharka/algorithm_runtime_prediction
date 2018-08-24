@@ -1,0 +1,588 @@
+  File "run_experiment.py", line 6
+    import ridge_with_rfe as rr_rfe
+    ^
+IndentationError: unexpected indent
+Traceback (most recent call last):
+  File "run_experiment.py", line 6, in <module>
+    import ridge_with_rfe as rr_rfe
+  File "/home/jelena_markovic/algorithm_runtime_prediction/ridge_with_rfe.py", line 51
+    i = 0
+        ^
+IndentationError: unindent does not match any outer indentation level
+Ridge regression model with recursive feature elimination...
+K-fold 1
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 100.0
+K-fold 2
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 3
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 4
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 0.001
+K-fold 5
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 6
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 7
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 8
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 9
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 1.0
+K-fold 10
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+saps SAT_Competition_RACE_RAND_SAT RMSE: 0.7112085072608032 R2: 0.837561763964634
+
+
+
+
+
+Ridge regression model with recursive feature elimination...
+K-fold 1
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 100.0
+K-fold 2
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 100.0
+K-fold 3
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 1e-06
+K-fold 4
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 25 features
+Selecting 60 features
+Regularization parameter: 100.0
+K-fold 5
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 100.0
+K-fold 6
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 100.0
+K-fold 7
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 8
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 9
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 100.0
+K-fold 10
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 100.0
+spear SAT_Competition_RACE_INDU RMSE: 0.7877643116466457 R2: 0.6864904732740579
+
+
+Ridge regression model with recursive feature elimination...
+K-fold 1
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 1e-06
+K-fold 2
+Reg metaparam for first feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 0.1
+K-fold 3
+Reg metaparam for first feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 0.1
+K-fold 4
+Reg metaparam for first feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 0.1
+K-fold 5
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 55 features
+Regularization parameter: 10.0
+K-fold 6
+Reg metaparam for first feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 0.1
+K-fold 7
+Reg metaparam for first feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 0.01
+K-fold 8
+Reg metaparam for first feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 1.0
+K-fold 9
+Reg metaparam for first feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 0.01
+K-fold 10
+Reg metaparam for first feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selecting 25 features
+Selecting 60 features
+Regularization parameter: 0.1
+spear IBM-SWV RMSE: 0.29056209250658493 R2: 0.897175994047511
+
+
+Ridge regression model with recursive feature elimination...
+K-fold 1
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 2
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 3
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 10 features
+Selecting 55 features
+Regularization parameter: 0.1
+K-fold 4
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 5
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 10 features
+Selecting 35 features
+Regularization parameter: 1.0
+K-fold 6
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 10 features
+Selecting 35 features
+Regularization parameter: 1.0
+K-fold 7
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 1.0
+K-fold 8
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 9
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 10
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 10 features
+Selecting 35 features
+Regularization parameter: 10.0
+spear IBM-ALL RMSE: 0.3922431146815455 R2: 0.8736787331771873
+
+
+Ridge regression model with recursive feature elimination...
+K-fold 1
+Reg metaparam for first feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selecting 25 features
+Selecting 20 features
+Regularization parameter: 0.01
+K-fold 2
+Reg metaparam for first feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selecting 15 features
+Selecting 55 features
+Regularization parameter: 0.01
+K-fold 3
+Reg metaparam for first feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selecting 15 features
+Selecting 50 features
+Regularization parameter: 10.0
+K-fold 4
+Reg metaparam for first feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selecting 15 features
+Selecting 25 features
+Regularization parameter: 1e-06
+K-fold 5
+Reg metaparam for first feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selecting 15 features
+Selecting 20 features
+Regularization parameter: 1.0
+K-fold 6
+Reg metaparam for first feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selecting 15 features
+Selecting 60 features
+Regularization parameter: 0.1
+K-fold 7
+Reg metaparam for first feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selecting 15 features
+Selecting 55 features
+Regularization parameter: 0.01
+K-fold 8
+Reg metaparam for first feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selecting 30 features
+Selecting 50 features
+Regularization parameter: 0.1
+K-fold 9
+Reg metaparam for first feature selection:
+Regularization parameter: 1.0
+---------------------------------------
+Selecting 10 features
+Selecting 15 features
+Regularization parameter: 0.0001
+K-fold 10
+Reg metaparam for first feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selecting 15 features
+Selecting 35 features
+Regularization parameter: 10.0
+spear SWV RMSE: 0.23408049330639424 R2: 0.8165236795135381
+
+
+
+
+
+Ridge regression model with recursive feature elimination...
+K-fold 1
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 1.0
+K-fold 2
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 3
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 1.0
+K-fold 4
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 45 features
+Regularization parameter: 1e-06
+K-fold 5
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 6
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 7
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 8
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 1.0
+K-fold 9
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 35 features
+Regularization parameter: 1e-06
+K-fold 10
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 55 features
+Regularization parameter: 10.0
+minisat INDU-HAND-RAND RMSE: 0.8459780985338097 R2: 0.6589395794495817
+
+
+Ridge regression model with recursive feature elimination...
+K-fold 1
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 1e-06
+K-fold 2
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 3
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 4
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 1.0
+K-fold 5
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 100.0
+K-fold 6
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 7
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 8
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 1.0
+K-fold 9
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 10
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 1.0
+minisat SAT_Competition_RACE_HAND RMSE: 0.9544139817558033 R2: 0.6811343859226644
+
+
+Ridge regression model with recursive feature elimination...
+K-fold 1
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 100.0
+K-fold 2
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 100.0
+K-fold 3
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 100.0
+K-fold 4
+Reg metaparam for first feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 0.001
+K-fold 5
+Reg metaparam for first feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 10.0
+K-fold 6
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 100.0
+K-fold 7
+Reg metaparam for first feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selecting 30 features
+Selecting 60 features
+Regularization parameter: 100.0
+K-fold 8
+Reg metaparam for first feature selection:
+Regularization parameter:

@@ -12,10 +12,10 @@ from data_preprocessing import log10_transform
 # 'INDU-IBM-SWV',
 # 'RAND_SAT']
 datasets = [
-  'SATALL12S',
-  'SATHAND12S',
-  'SATINDU12S',
-  'SATRAND12S'
+#  'SATALL12S',
+  'SATHAND12S'
+#  'SATINDU12S',
+#  'SATRAND12S'
 ]
 
 RAND = 1234
@@ -114,7 +114,7 @@ def determine_metaparams(X, Y):
   dim_reductions = np.arange(1, num_solvers)
   optimal_dim_reduction_mses = np.array([])
   optimal_dim_reductions = np.array([])
-  
+
   gcrf = GCRF()
   rf = RandomForestRegressor(n_estimators=200, max_features=0.5, min_samples_split=5, random_state=RAND)
   kf = KFold(n_splits=5, shuffle=True, random_state=RAND)
@@ -208,7 +208,9 @@ for dataset in datasets:
 
     # delta = determine_similarity_metaparam(X_train, Y_train)
     # delta = DELTA
-    delta, reduce_dim_by = determine_metaparams(X_train, Y_train)
+    # delta, reduce_dim_by = determine_metaparams(X_train, Y_train)
+    delta = 2
+    reduce_dim_by = 1
 
     j = 1
     for (inner_train_index, inner_test_index) in kf.split(X_train, Y_train):
@@ -246,5 +248,5 @@ for dataset in datasets:
     gcrf_predictions[outer_test_index, :] = gcrf.predict(R_test.reshape(num_test_instances * num_solvers, 1), Se_test)
     rf_predictions[outer_test_index, :] = R_test
 
-  np.save('predictions/' + dataset + '_rf_svd_tweaking_metaparams.npy', rf_predictions)
-  np.save('predictions/' + dataset + '_gcrf_svd_tweaking_metaparams.npy', gcrf_predictions)
+  np.save('satzilla_predictions/' + dataset + '_rf_svd_tweaking_metaparams.npy', rf_predictions)
+  np.save('satzilla_predictions/' + dataset + '_gcrf_svd_tweaking_metaparams.npy', gcrf_predictions)
