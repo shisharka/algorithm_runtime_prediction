@@ -8,7 +8,9 @@ def validate(X, Y):
   Y = log10_transform(Y)
 
   kf = model_selection.KFold(n_splits=10, shuffle=True, random_state=RAND)
-  fold_rmses = numpy.array([])
+  # fold_rmses = numpy.array([])
+
+  predictions = numpy.zeros(Y.shape)
 
   i = 0
   for train_index, test_index in kf.split(X, Y):
@@ -34,7 +36,10 @@ def validate(X, Y):
     ridge = linear_model.Ridge(alpha=alpha)
     ridge.fit(X_train, Y_train)
     Y_predicted = ridge.predict(X_test)
-    mse = metrics.mean_squared_error(Y_test, Y_predicted)
-    fold_rmses = numpy.append(fold_rmses, numpy.sqrt(mse))
+    predictions[test_index] = Y_predicted
 
-  return fold_rmses.mean()
+    # mse = metrics.mean_squared_error(Y_test, Y_predicted)
+    # fold_rmses = numpy.append(fold_rmses, numpy.sqrt(mse))
+
+  # return fold_rmses.mean()
+  return numpy.sqrt(metrics.mean_squared_error(Y, predictions)), numpy.sqrt(metrics.r2_score(Y, predictions))

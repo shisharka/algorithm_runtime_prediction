@@ -1,0 +1,4 @@
+SATALL12S: Similarity metaparam: 2.0 dim reduction metaparam: 1.0
+SATHAND12S: Similarity metaparam: 2.0 dim reduction metaparam: 1.0
+SATINDU12S: Similarity metaparam: 2.0 dim reduction metaparam: 3.0
+SATRAND12S: Similarity metaparam: 2.0 dim reduction metaparam: 5.0

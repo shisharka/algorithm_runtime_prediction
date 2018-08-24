@@ -4,10 +4,10 @@ from sklearn.metrics import mean_squared_error, r2_score
 from data_preprocessing import log10_transform
 
 datasets = [
-  # 'SATALL12S',
+  'SATALL12S',
   'SATHAND12S',
-  'SATINDU12S',
-  'SATRAND12S'
+  'SATINDU12S'
+  # 'SATRAND12S'
 ]
 
 for dataset in datasets:
@@ -16,8 +16,10 @@ for dataset in datasets:
   solver_times = data.filter(regex='_Time$', axis=1)
   Y = log10_transform(solver_times.get_values())
 
-  gcrf_predictions = np.load('predictions/' + dataset + '_gcrf_3.npy')
-  rf_predictions = np.load('predictions/' + dataset + '_rf_3.npy')
+  # gcrf_predictions = np.load('predictions/' + dataset + '_gcrf_tweaking_sim_metaparam.npy')
+  # rf_predictions = np.load('predictions/' + dataset + '_rf_tweaking_sim_metaparam.npy')
+  gcrf_predictions = np.load('gcrf_svd_predictions/' + dataset + '_gcrf_svd_tweaking_dim_reduction.npy')
+  rf_predictions = np.load('gcrf_svd_predictions/' + dataset + '_rf_svd_tweaking_dim_reduction.npy')
 
   num_solvers = Y.shape[1]
 

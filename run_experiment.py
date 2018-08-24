@@ -9,15 +9,15 @@ import random_forest as rf
 import random_forest_tuning_metaparams as rf2
 
 SOLVER_SET_NAMES = {
-  # 'minisat': ['INDU-HAND-RAND',
-  #             'SAT_Competition_RACE_HAND',
-  #             'SAT_Competition_RACE_RAND',
-  #             'SAT_Competition_RACE_INDU',
-  #             'IBM-SWV',
-  #             'IBM-ALL',
-  #             'SWV'],
+  'minisat': ['INDU-HAND-RAND',
+              'SAT_Competition_RACE_HAND',
+              'SAT_Competition_RACE_RAND',
+              'SAT_Competition_RACE_INDU',
+              'IBM-SWV',
+              'IBM-ALL',
+              'SWV'],
 
-  'cryptominisat': [#'SAT_Competition_RACE_INDU',
+  'cryptominisat': ['SAT_Competition_RACE_INDU',
                     'IBM-SWV',
                     'IBM-ALL',
                     'SWV'],
@@ -37,8 +37,8 @@ for solver_name, set_names in SOLVER_SET_NAMES.items():
     X, Y = read_data(set_name, solver_name)
 
     # print('Ridge regression model...')
-    # rmse = rr_plain.validate(X, Y)
-    # print(solver_name, set_name, 'RMSE:', rmse)
+    # rmse, r2 = rr_plain.validate(X, Y)
+    # print(solver_name, set_name, 'RMSE:', rmse, 'R2:', r2)
 
     # print('Ridge regression model with interactions...')
     # rmse = rr_plain2.validate(X, Y)
@@ -61,12 +61,12 @@ for solver_name, set_names in SOLVER_SET_NAMES.items():
     # print(solver_name, set_name, 'RMSE:', rmse)
 
     # print('Random forest model...')
-    # rmse = rf.validate(X, Y)
-    # print(solver_name, set_name, 'RMSE:', rmse)
+    # rmse, r2 = rf.validate(X, Y)
+    # print(solver_name, set_name, 'RMSE:', rmse, 'R2:', r2)
 
     print('Random forest model with metaparam tuning...')
-    rmse = rf2.validate(X, Y)
-    print(solver_name, set_name, 'RMSE:', rmse)
+    rmse, r2 = rf2.validate(X, Y)
+    print(solver_name, set_name, 'RMSE:', rmse, 'R2:', r2)
 
     print("\n")
 

@@ -12,10 +12,10 @@ from data_preprocessing import log10_transform
 # 'INDU-IBM-SWV',
 # 'RAND_SAT']
 datasets = [
-  'SATALL12S',
-  'SATHAND12S',
-  'SATINDU12S',
-  'SATRAND12S'
+  'SATALL12S'
+  # 'SATHAND12S',
+  # 'SATINDU12S',
+  # 'SATRAND12S'
 ]
 
 RAND = 1234
@@ -49,6 +49,8 @@ def S(Y, delta, svd=False, reduce_dim_by=1):
   # scaling to [0, 1]
   if max > 0: S = (S - min) / (max - min)
   return S
+
+
 
 def determine_similarity_metaparam(X, Y):
   num_solvers = Y.shape[1]
@@ -107,6 +109,59 @@ def determine_similarity_metaparam(X, Y):
   delta = deltas[min_index]
   print('Similarity metaparameter:', delta)
   return delta
+
+
+def determine_dim_reduction(X, Y):
+  num_solvers = Y.shape[1]
+  dim_reductions = np.arange(1, num_solvers)
+  mean_square_errors = np.array([])
+  
+  gcrf = GCRF()
+  rf = RandomForestRegressor(n_estimators=200, max_features=0.5, min_samples_split=5, random_state=RAND)
+  kf = KFold(n_splits=5, shuffle=True, random_state=RAND)
+
+  for d in dim_reductions:
+    scores = np.array([])
+    i = 0
+    for (train_index, test_index) in kf.split(X, Y):
+      i += 1; print(i)
+      X_train = X[train_index]
+      Y_train = Y[train_index]
+      X_test = X[test_index]
+      Y_test = Y[test_index]
+
+      num_train_instances = X_train.shape[0]
+      num_test_instances = X_test.shape[0]
+
+      R_train = np.zeros((num_train_instances, num_solvers))
+      Se_train = np.zeros((num_train_instances, 1, num_solvers, num_solvers))
+      R_test = np.zeros((num_test_instances, num_solvers))
+      Se_test = np.zeros((num_test_instances, 1, num_solvers, num_solvers))
+
+      ### Setting R_train/R_test values
+      for s in range(0, num_solvers):
+        rf.fit(X_train, Y_train[:, s])
+        R_train[:, s] = rf.predict(X_train)
+        R_test[:, s] = rf.predict(X_test)
+
+      ### Setting Se_train/Se_test values
+      Se_train[:, 0, :, :] = S(Y_train, DELTA, SVD, d)
+      Se_test[:, 0, :, :] = S(Y_test, DELTA, SVD, d)
+
+      gcrf.fit(R_train.reshape(num_train_instances * num_solvers, 1), Se_train, Y_train, learn=LEARN)
+      predictions = gcrf.predict(R_test.reshape(num_test_instances * num_solvers, 1), Se_test)
+      n = Y_test.shape[0] * num_solvers
+      scores = \
+        np.append(scores, mean_squared_error(Y_test.reshape(n), predictions.reshape(n)))
+
+    mean_square_errors = np.append(mean_square_errors, scores.mean())
+
+  min_index = mean_square_errors.argmin()
+  dim_reduction = dim_reductions[min_index]
+  print('Dimension reduction:', dim_reduction)
+  return dim_reduction
+
+
 
 def determine_metaparams(X, Y):
   num_solvers = Y.shape[1]
@@ -207,8 +262,9 @@ for dataset in datasets:
     Se_test = np.zeros((num_test_instances, 1, num_solvers, num_solvers))
 
     # delta = determine_similarity_metaparam(X_train, Y_train)
-    # delta = DELTA
-    delta, reduce_dim_by = determine_metaparams(X_train, Y_train)
+    delta = 2
+    # reduce_dim_by = determine_dim_reduction(X_train, Y_train)
+    reduce_dim_by = 1
 
     j = 1
     for (inner_train_index, inner_test_index) in kf.split(X_train, Y_train):
@@ -246,5 +302,5 @@ for dataset in datasets:
     gcrf_predictions[outer_test_index, :] = gcrf.predict(R_test.reshape(num_test_instances * num_solvers, 1), Se_test)
     rf_predictions[outer_test_index, :] = R_test
 
-  np.save('predictions/' + dataset + '_rf_svd_tweaking_metaparams.npy', rf_predictions)
-  np.save('predictions/' + dataset + '_gcrf_svd_tweaking_metaparams.npy', gcrf_predictions)
+  np.save('predictions/' + dataset + '_rf_svd_tweaking_dim_reduction.npy', rf_predictions)
+  np.save('predictions/' + dataset + '_gcrf_svd_tweaking_dim_reduction.npy', gcrf_predictions)
