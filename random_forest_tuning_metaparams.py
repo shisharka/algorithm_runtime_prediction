@@ -35,7 +35,9 @@ def validate(X, Y):
   Y = log10_transform(Y)
 
   kf = model_selection.KFold(n_splits=10, shuffle=True, random_state=RAND)
-  fold_rmses = numpy.array([])
+  # fold_rmses = numpy.array([])
+
+  predictions = numpy.zeros(Y.shape)
 
   i = 0
   for train_index, test_index in kf.split(X, Y):
@@ -49,10 +51,19 @@ def validate(X, Y):
 
     min_split, split_ratio = determine_metaparams(X_train, Y_train)
 
+    ### setting missing features to mean ###
+    mean_vec = mean(X_train)
+    X_train = handle_broken_features(X_train, mean_vec)
+    X_test = handle_broken_features(X_test, mean_vec)
+
     rf = RandomForestRegressor(n_estimators=200, max_features=split_ratio, min_samples_split=min_split, random_state=RAND)
     rf.fit(X_train, Y_train)
     Y_predicted = rf.predict(X_test)
-    mse = metrics.mean_squared_error(Y_test, Y_predicted)
-    fold_rmses = numpy.append(fold_rmses, numpy.sqrt(mse))
+    predictions[test_index] = Y_predicted
 
-  return fold_rmses.mean()
+    # mse = metrics.mean_squared_error(Y_test, Y_predicted)
+    # fold_rmses = numpy.append(fold_rmses, numpy.sqrt(mse))
+
+  # return fold_rmses.mean()
+
+  return numpy.sqrt(metrics.mean_squared_error(Y, predictions)), numpy.sqrt(metrics.r2_score(Y, predictions))
