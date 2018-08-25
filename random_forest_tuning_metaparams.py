@@ -29,8 +29,7 @@ def determine_metaparams(X_train, Y_train):
   return min_split, split_ratio
 
 
-# cross-validation
-def validate(X, Y):
+def validate(X, Y, dataset):
   ### log10 transformation of response variable ###
   Y = log10_transform(Y)
 
@@ -61,9 +60,6 @@ def validate(X, Y):
     Y_predicted = rf.predict(X_test)
     predictions[test_index] = Y_predicted
 
-    # mse = metrics.mean_squared_error(Y_test, Y_predicted)
-    # fold_rmses = numpy.append(fold_rmses, numpy.sqrt(mse))
+  numpy.save('rf_predictions/' + dataset + '_rf_with_tuning.npy', predictions)
 
-  # return fold_rmses.mean()
-
-  return numpy.sqrt(metrics.mean_squared_error(Y, predictions)), numpy.sqrt(metrics.r2_score(Y, predictions))
+  return numpy.sqrt(metrics.mean_squared_error(Y, predictions)), metrics.r2_score(Y, predictions)

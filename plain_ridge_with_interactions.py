@@ -1,9 +1,7 @@
 from data_preprocessing import *
 from regularization_metaparam import *
 
-
-# cross-validation
-def validate(X, Y):
+def validate(X, Y, dataset):
   ### log10 transformation of response variable ###
   Y = log10_transform(Y)
 
@@ -11,7 +9,6 @@ def validate(X, Y):
   X = calculate_interactions(X)
 
   kf = model_selection.KFold(n_splits=10, shuffle=True, random_state=RAND)
-  # fold_rmses = numpy.array([])
 
   predictions = numpy.zeros(Y.shape)
 
@@ -40,8 +37,7 @@ def validate(X, Y):
     ridge.fit(X_train, Y_train)
     Y_predicted = ridge.predict(X_test)
     predictions[test_index] = Y_predicted 
-    # mse = metrics.mean_squared_error(Y_test, Y_predicted)
-    # fold_rmses = numpy.append(fold_rmses, numpy.sqrt(mse))
 
-  # return fold_rmses.mean()
-  return metrics.mean_squared_error(predictions, Y), metrics.r2_score(predictions, Y)
+  numpy.save('ridge_predictions/' + dataset + '_plain_ridge_with_interactions.npy', predictions)
+
+  return numpy.sqrt(metrics.mean_squared_error(Y, predictions)), metrics.r2_score(Y, predictions)

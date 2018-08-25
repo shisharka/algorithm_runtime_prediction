@@ -33,14 +33,13 @@ def determine_metaparams(X_train, Y_train):
   return num, alpha
 
 
-# cross-validation
-def validate(X, Y):
+def validate(X, Y, dataset, attempt = 0):
   ### log10 transformation of response variable ###
   Y = log10_transform(Y)
 
   kf = model_selection.KFold(n_splits=10, shuffle=True, random_state=RAND)
-  # fold_rmses = numpy.array([])
   predictions = numpy.zeros(Y.shape)
+
   i = 0
   for train_index, test_index in kf.split(X, Y):
     i = i + 1
@@ -83,9 +82,12 @@ def validate(X, Y):
     X_test = standardize(X_test, mean_vec, std_vec)
 
     ### second feature selection ###
-    # n = MAX_Q_FEATURES
-    # alpha = DEFAULT_REG_PARAM
-    n, alpha = determine_metaparams(X_train, Y_train)
+    n = MAX_Q_FEATURES
+    alpha = DEFAULT_REG_PARAM
+    if attempt == 1:
+      alpha = determine_regularization_metaparam(X_train, Y_train)
+    elif attempt == 2:
+      n, alpha = determine_metaparams(X_train, Y_train)
     set_of_feature_indices, best_index = get_important_features(X_train, Y_train, n)
 
     selected_feature_indices = numpy.array(set_of_feature_indices[best_index]).astype(int)
@@ -93,13 +95,11 @@ def validate(X, Y):
     X_train = X_train[:, selected_feature_indices]
     X_test = X_test[:, selected_feature_indices]
 
-    # alpha = determine_regularization_metaparam(X_train, Y_train)
     ridge = linear_model.Ridge(alpha=alpha)
     ridge.fit(X_train, Y_train)
     Y_predicted = ridge.predict(X_test)
     predictions[test_index] = Y_predicted
-    # mse = metrics.mean_squared_error(Y_test, Y_predicted)
-    # fold_rmses = numpy.append(fold_rmses, numpy.sqrt(mse))
 
-  # return fold_rmses.mean()
-  return metrics.mean_squared_error(predictions, Y), metrics.r2_score(predictions, Y)
+  numpy.save('ridge_predictions/' + dataset + '_ridge_with_ffs_' + str(attempt) + '.npy', predictions)
+
+  return numpy.sqrt(metrics.mean_squared_error(Y, predictions)), metrics.r2_score(Y, predictions)

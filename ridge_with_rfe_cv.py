@@ -3,17 +3,15 @@ from sklearn.feature_selection import RFECV
 from data_preprocessing import *
 from regularization_metaparam import *
 
-NUM_L_FEATURES = 30
-NUM_Q_FEATURES = 60
+NUM_L_FEATURES = 30 # fixed number of features for the first selection
 
-
-# cross-validation
-def validate(X, Y):
+def validate(X, Y, dataset, attempt = 0):
   ### log10 transformation of response variable ###
   Y = log10_transform(Y)
 
   kf = model_selection.KFold(n_splits=10, shuffle=True, random_state=RAND)
-  fold_rmses = numpy.array([])
+
+  predictions = numpy.zeros(Y.shape)
 
   i = 0
   for train_index, test_index in kf.split(X, Y):
@@ -35,14 +33,15 @@ def validate(X, Y):
     X_train_new = standardize(X_train, mean_vec, std_vec)
 
     ### feature selection ###
-    # alpha = DEFAULT_REG_PARAM
-    print('Reg metaparam for first feature selection:')
+    # print('For first feature selection:')
+    print('Before feature selection:')
     alpha = determine_regularization_metaparam(X_train_new, Y_train)
     print('---------------------------------------')
-    selection = RFECV(linear_model.Ridge(alpha=alpha), step=1, cv=5).fit(X_train_new, Y_train)
-    # selection = RFE(linear_model.Ridge(alpha=alpha), NUM_L_FEATURES, step=1).fit(X_train_new, Y_train)
+    selection = RFE(linear_model.Ridge(alpha=alpha), NUM_L_FEATURES, step=1).fit(X_train_new, Y_train)
+    if attempt == 1:
+      selection = RFECV(linear_model.Ridge(alpha=alpha), step=1, cv=5).fit(X_train_new, Y_train)
     X_train = selection.transform(X_train)
-    print('Selected', X_train.shape[1], 'features')
+    print('Selected', X_train.shape[1], 'features in the first phase')
     X_test = selection.transform(X_test)
 
     ### calculate interactions ###
@@ -60,20 +59,20 @@ def validate(X, Y):
     X_test = standardize(X_test, mean_vec, std_vec)
 
     ### second feature selection ###
-    # print('Reg metaparam for second feature selection:')
+    # print('For second feature selection:')
     # alpha = determine_regularization_metaparam(X_train, Y_train)
     # print('---------------------------------------')
     selection = RFECV(linear_model.Ridge(alpha=alpha), step=1, cv=5).fit(X_train, Y_train)
-    # selection = RFE(linear_model.Ridge(alpha=alpha), NUM_Q_FEATURES, step=1).fit(X_train, Y_train)
     X_train = selection.transform(X_train)
-    print('Selected', X_train.shape[1], 'features in second phase')
+    print('Selected', X_train.shape[1], 'features in the second phase')
     X_test = selection.transform(X_test)
 
     alpha = determine_regularization_metaparam(X_train, Y_train)
     ridge = linear_model.Ridge(alpha=alpha)
     ridge.fit(X_train, Y_train)
     Y_predicted = ridge.predict(X_test)
-    mse = metrics.mean_squared_error(Y_test, Y_predicted)
-    fold_rmses = numpy.append(fold_rmses, numpy.sqrt(mse))
+    predictions[test_index] = Y_predicted
 
-  return fold_rmses.mean()
+  numpy.save('ridge_predictions/' + dataset + '_ridge_with_rfe_cv_' + str(attempt) + '.npy', predictions)
+
+  return numpy.sqrt(metrics.mean_squared_error(Y, predictions)), metrics.r2_score(Y, predictions)

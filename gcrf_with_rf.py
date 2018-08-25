@@ -159,7 +159,7 @@ def determine_dim_reduction(X, Y):
   min_index = mean_square_errors.argmin()
   dim_reduction = dim_reductions[min_index]
   print('Dimension reduction:', dim_reduction)
-  return dim_reduction
+  return int(dim_reduction)
 
 
 
@@ -218,7 +218,7 @@ def determine_metaparams(X, Y):
   delta = deltas[min_index]
   dim_reduction = optimal_dim_reductions[min_index]
   print('Similarity metaparam:', delta, 'dim reduction metaparam:', dim_reduction)
-  return delta, dim_reduction
+  return delta, int(dim_reduction)
 
 
 for dataset in datasets:

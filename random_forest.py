@@ -3,15 +3,29 @@ from sklearn import model_selection
 from sklearn.ensemble import RandomForestRegressor
 from data_preprocessing import *
 
-# cross-validation
-def validate(X, Y):
+def validate(X, Y, dataset, attempt = 0):
   ### log10 transformation of response variable ###
   Y = log10_transform(Y)
 
   # n_estimators - the number of trees in the RandomForestRegressor
   # max_features - the number of features to consider when looking for the best split (percentage)
   # min_samples_split - minimum number of samples required to split an internal node
-  rf = RandomForestRegressor(n_estimators=2000, max_features=0.5, min_samples_split=5, random_state=RAND)
+  n_estimators = 10
+  if attempt == 1:
+    n_estimators = 20
+  elif attempt == 2:
+    n_estimators = 30
+  elif attempt == 3:
+    n_estimators = 50
+  elif attempt == 4:
+    n_estimators = 100
+  elif attempt == 5:
+    n_estimators = 200
+  elif attempt == 6:
+    n_estimators = 1000
+  elif attempt == 7:
+    n_estimators = 2000
+  rf = RandomForestRegressor(n_estimators=n_estimators, max_features=0.5, min_samples_split=5, random_state=RAND)
 
   predictions = numpy.zeros(Y.shape)
 
@@ -37,8 +51,6 @@ def validate(X, Y):
     Y_predicted = rf.predict(X_test)
     predictions[test_index] = Y_predicted
 
-    # mse = metrics.mean_squared_error(Y_test, Y_predicted)
-    # fold_rmses = numpy.append(fold_rmses, numpy.sqrt(mse))
+  numpy.save('rf_predictions/' + dataset + '_rf_' + str(attempt) + '.npy', predictions)
 
-  # return fold_rmses.mean()
-  return numpy.sqrt(metrics.mean_squared_error(Y, predictions)), numpy.sqrt(metrics.r2_score(Y, predictions))
+  return numpy.sqrt(metrics.mean_squared_error(Y, predictions)), metrics.r2_score(Y, predictions)

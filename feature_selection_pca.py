@@ -1,5 +1,5 @@
 from sklearn.decomposition import PCA
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 # feature selection based on PCA
 def pca_feature_selection(X_train, X_test, num_components):
@@ -9,7 +9,7 @@ def pca_feature_selection(X_train, X_test, num_components):
   if num_components > 0 and num_components < 1:
     pca = PCA(n_components = num_components, svd_solver = 'full')
   else:
-    pca = PCA(n_components=num_components)
+    pca = PCA(n_components = num_components)
 
   pca.fit(X_train)
 
