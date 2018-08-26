@@ -45,7 +45,8 @@ datasets = [
   'SATRAND12S'
 ]
 
-model = 'svd_tweaking_metaparams'
+# possible model values: tweaking_similarity_metaparam, svd_tweaking_metaparams
+model = 'tweaking_similarity_metaparam'
 if len(sys.argv) > 1:
   model = sys.argv[1]
 
@@ -59,8 +60,8 @@ for dataset in datasets:
   Y = log10_transform(solver_times)
 
 
-  gcrf_predictions = np.load('satzilla_predictions/' + dataset + '_gcrf_' + model + '.npy')
-  rf_predictions = np.load('satzilla_predictions/' + dataset + '_rf_' + model + '.npy')
+  gcrf_predictions = np.load('gcrf_predictions/' + dataset + '_gcrf_' + model + '.npy')
+  rf_predictions = np.load('gcrf_predictions/' + dataset + '_rf_' + model + '.npy')
   # gcrf_predictions = np.load('predictions/' + dataset + '_gcrf_tweaking_sim_metaparam.npy')
   # rf_predictions = np.load('predictions/' + dataset + '_rf_tweaking_sim_metaparam.npy')
   # gcrf_predictions = np.load('gcrf_svd_predictions/' + dataset + '_gcrf_svd_tweaking_dim_reduction.npy')
