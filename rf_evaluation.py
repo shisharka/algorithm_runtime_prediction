@@ -6,22 +6,22 @@ from data_preprocessing import log10_transform
 
 datasets = [
   'INDU-HAND-RAND-minisat',
-  # 'SAT_Competition_RACE_HAND-minisat',
-  # 'SAT_Competition_RACE_RAND-minisat',
-  # 'SAT_Competition_RACE_INDU-minisat',
-  # 'IBM-SWV-minisat',
-  # 'IBM-ALL-minisat',
-  # 'SWV-minisat',
-  # 'SAT_Competition_RACE_INDU-cryptominisat',
-  # 'IBM-SWV-cryptominisat',
-  # 'IBM-ALL-cryptominisat',
-  # 'SWV-cryptominisat',
-  # 'SAT_Competition_RACE_INDU-spear',
-  # 'IBM-SWV-spear',
-  # 'IBM-ALL-spear',
-  # 'SWV-spear',
-  # 'SAT_Competition_RACE_RAND_SAT-tnm',
-  # 'SAT_Competition_RACE_RAND_SAT-saps'
+  'SAT_Competition_RACE_HAND-minisat',
+  'SAT_Competition_RACE_RAND-minisat',
+  'SAT_Competition_RACE_INDU-minisat',
+  'IBM-SWV-minisat',
+  'IBM-ALL-minisat',
+  'SWV-minisat',
+  'SAT_Competition_RACE_INDU-cryptominisat',
+  'IBM-SWV-cryptominisat',
+  'IBM-ALL-cryptominisat',
+  'SWV-cryptominisat',
+  'SAT_Competition_RACE_INDU-spear',
+  'IBM-SWV-spear',
+  'IBM-ALL-spear',
+  'SWV-spear',
+  'SAT_Competition_RACE_RAND_SAT-tnm',
+  'SAT_Competition_RACE_RAND_SAT-saps'
 ]
 
 # possible model values: rf_0, rf_1, rf_2, rf_3, rf_4, rf_5, rf_6, rf_7, rf_with_tuning

@@ -1,0 +1,2055 @@
+Random forest model - attempt 0
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat INDU-HAND-RAND RMSE: 0.509607999056128 R2: 0.9203070792031189
+Random forest model - attempt 1
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat INDU-HAND-RAND RMSE: 0.4892507975772169 R2: 0.9265468616110419
+Random forest model - attempt 2
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat INDU-HAND-RAND RMSE: 0.4832234083660051 R2: 0.9283455444825959
+Random forest model - attempt 3
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat INDU-HAND-RAND RMSE: 0.47879454351806183 R2: 0.929652987817748
+Random forest model - attempt 4
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat INDU-HAND-RAND RMSE: 0.4763117065197583 R2: 0.9303806790917923
+Random forest model - attempt 5
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat INDU-HAND-RAND RMSE: 0.4746544556056315 R2: 0.9308642950274052
+Random forest model - attempt 6
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat INDU-HAND-RAND RMSE: 0.4723884774559085 R2: 0.9315228206189909
+Random forest model - attempt 7
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat INDU-HAND-RAND RMSE: 0.4724793308666954 R2: 0.9314964779629895
+Random forest model with tuning metaparams
+K-fold 1
+Min samples split: 2 max features: 0.8
+K-fold 2
+Min samples split: 2 max features: 0.7000000000000001
+K-fold 3
+Min samples split: 2 max features: 0.8
+K-fold 4
+Min samples split: 2 max features: 0.4
+K-fold 5
+Min samples split: 2 max features: 0.6
+K-fold 6
+Min samples split: 2 max features: 0.7000000000000001
+K-fold 7
+Min samples split: 2 max features: 0.4
+K-fold 8
+Min samples split: 2 max features: 0.9
+K-fold 9
+Min samples split: 2 max features: 0.30000000000000004
+K-fold 10
+Min samples split: 2 max features: 0.6
+minisat INDU-HAND-RAND RMSE: 0.47102572341457327 R2: 0.9319173389249309
+
+
+Random forest model - attempt 0
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_HAND RMSE: 0.5844949840645075 R2: 0.9024250828058802
+Random forest model - attempt 1
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_HAND RMSE: 0.5500528291207959 R2: 0.9135857390945675
+Random forest model - attempt 2
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_HAND RMSE: 0.5422201749889053 R2: 0.9160292639673111
+Random forest model - attempt 3
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_HAND RMSE: 0.5350234852213174 R2: 0.9182434970887124
+Random forest model - attempt 4
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_HAND RMSE: 0.5316578918188125 R2: 0.9192688490698376
+Random forest model - attempt 5
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_HAND RMSE: 0.528861562802152 R2: 0.9201158492902932
+Random forest model - attempt 6
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_HAND RMSE: 0.5267811955413457 R2: 0.9207430890758672
+Random forest model - attempt 7
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_HAND RMSE: 0.52708966010741 R2: 0.9206502417731434
+Random forest model with tuning metaparams
+K-fold 1
+Min samples split: 2 max features: 0.7000000000000001
+K-fold 2
+Min samples split: 2 max features: 0.7000000000000001
+K-fold 3
+Min samples split: 2 max features: 0.2
+K-fold 4
+Min samples split: 2 max features: 0.5
+K-fold 5
+Min samples split: 2 max features: 0.5
+K-fold 6
+Min samples split: 2 max features: 0.8
+K-fold 7
+Min samples split: 2 max features: 0.5
+K-fold 8
+Min samples split: 2 max features: 0.30000000000000004
+K-fold 9
+Min samples split: 2 max features: 0.4
+K-fold 10
+Min samples split: 2 max features: 0.30000000000000004
+minisat SAT_Competition_RACE_HAND RMSE: 0.5260367780550674 R2: 0.9209669335980321
+
+
+Random forest model - attempt 0
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_RAND RMSE: 0.3914638107138777 R2: 0.9493589807227317
+Random forest model - attempt 1
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_RAND RMSE: 0.3689599430633585 R2: 0.9550139732997209
+Random forest model - attempt 2
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_RAND RMSE: 0.3654841726422829 R2: 0.9558575586675092
+Random forest model - attempt 3
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_RAND RMSE: 0.3587161344356118 R2: 0.957477281505726
+Random forest model - attempt 4
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_RAND RMSE: 0.3561651036732306 R2: 0.9580799365478697
+Random forest model - attempt 5
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_RAND RMSE: 0.35596038398211893 R2: 0.9581281130591218
+Random forest model - attempt 6
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_RAND RMSE: 0.35559236535167216 R2: 0.958214648917377
+Random forest model - attempt 7
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_RAND RMSE: 0.35589090968871095 R2: 0.9581444560905765
+Random forest model with tuning metaparams
+K-fold 1
+Min samples split: 2 max features: 0.1
+K-fold 2
+Min samples split: 2 max features: 0.2
+K-fold 3
+Min samples split: 2 max features: 0.1
+K-fold 4
+Min samples split: 2 max features: 0.7000000000000001
+K-fold 5
+Min samples split: 2 max features: 0.9
+K-fold 6
+Min samples split: 2 max features: 0.4
+K-fold 7
+Min samples split: 2 max features: 0.5
+K-fold 8
+Min samples split: 2 max features: 0.8
+K-fold 9
+Min samples split: 2 max features: 0.4
+K-fold 10
+Min samples split: 2 max features: 0.2
+minisat SAT_Competition_RACE_RAND RMSE: 0.3561636876115062 R2: 0.9580802698836105
+
+
+Random forest model - attempt 0
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_INDU RMSE: 0.5776821594856543 R2: 0.8865773987650586
+Random forest model - attempt 1
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_INDU RMSE: 0.5617077454492426 R2: 0.892763528106347
+Random forest model - attempt 2
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_INDU RMSE: 0.5522891737237758 R2: 0.8963296052299858
+Random forest model - attempt 3
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_INDU RMSE: 0.5523204909212095 R2: 0.8963178477723873
+Random forest model - attempt 4
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_INDU RMSE: 0.5536591440181303 R2: 0.895814652132426
+Random forest model - attempt 5
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_INDU RMSE: 0.5529086057174933 R2: 0.8960969272263827
+Random forest model - attempt 6
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_INDU RMSE: 0.5533895347876336 R2: 0.8959160953853604
+Random forest model - attempt 7
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SAT_Competition_RACE_INDU RMSE: 0.5537721457160873 R2: 0.8957721193835891
+Random forest model with tuning metaparams
+K-fold 1
+Min samples split: 2 max features: 0.9
+K-fold 2
+Min samples split: 2 max features: 0.8
+K-fold 3
+Min samples split: 2 max features: 0.9
+K-fold 4
+Min samples split: 2 max features: 1.0
+K-fold 5
+Min samples split: 2 max features: 0.9
+K-fold 6
+Min samples split: 2 max features: 1.0
+K-fold 7
+Min samples split: 2 max features: 0.9
+K-fold 8
+Min samples split: 2 max features: 0.8
+K-fold 9
+Min samples split: 2 max features: 0.8
+K-fold 10
+Min samples split: 2 max features: 1.0
+minisat SAT_Competition_RACE_INDU RMSE: 0.5544329189185083 R2: 0.895523236949953
+
+
+Random forest model - attempt 0
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat IBM-SWV RMSE: 0.16837275056788215 R2: 0.989246952688009
+Random forest model - attempt 1
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat IBM-SWV RMSE: 0.1657323701915113 R2: 0.9895815616523157
+Random forest model - attempt 2
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat IBM-SWV RMSE: 0.16799050869447307 R2: 0.989295720666779
+Random forest model - attempt 3
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat IBM-SWV RMSE: 0.1676275751471374 R2: 0.9893419226279085
+Random forest model - attempt 4
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat IBM-SWV RMSE: 0.1613932552311148 R2: 0.9901199599347328
+Random forest model - attempt 5
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat IBM-SWV RMSE: 0.1599553548744034 R2: 0.9902952241128469
+Random forest model - attempt 6
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat IBM-SWV RMSE: 0.15644541956078792 R2: 0.9907164592532232
+Random forest model - attempt 7
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat IBM-SWV RMSE: 0.15576477451406237 R2: 0.9907970630892617
+Random forest model with tuning metaparams
+K-fold 1
+Min samples split: 2 max features: 0.5
+K-fold 2
+Min samples split: 2 max features: 0.5
+K-fold 3
+Min samples split: 2 max features: 0.8
+K-fold 4
+Min samples split: 2 max features: 0.7000000000000001
+K-fold 5
+Min samples split: 2 max features: 0.4
+K-fold 6
+Min samples split: 2 max features: 0.4
+K-fold 7
+Min samples split: 2 max features: 0.5
+K-fold 8
+Min samples split: 2 max features: 0.6
+K-fold 9
+Min samples split: 2 max features: 0.8
+K-fold 10
+Min samples split: 2 max features: 0.5
+minisat IBM-SWV RMSE: 0.16006132247742585 R2: 0.9902823613676743
+
+
+Random forest model - attempt 0
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat IBM-ALL RMSE: 0.236221024227775 R2: 0.981719394180552
+Random forest model - attempt 1
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat IBM-ALL RMSE: 0.22110819061763004 R2: 0.9839836648149777
+Random forest model - attempt 2
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat IBM-ALL RMSE: 0.2148064828102279 R2: 0.9848836041573212
+Random forest model - attempt 3
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat IBM-ALL RMSE: 0.2110785664844869 R2: 0.9854037343182259
+Random forest model - attempt 4
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat IBM-ALL RMSE: 0.20789404464288191 R2: 0.9858408368812188
+Random forest model - attempt 5
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat IBM-ALL RMSE: 0.20650230345785645 R2: 0.9860297786107457
+Random forest model - attempt 6
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat IBM-ALL RMSE: 0.20752673436782046 R2: 0.985890825919415
+Random forest model - attempt 7
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat IBM-ALL RMSE: 0.20711083390183718 R2: 0.9859473211185104
+Random forest model with tuning metaparams
+K-fold 1
+Min samples split: 2 max features: 0.6
+K-fold 2
+Min samples split: 2 max features: 0.5
+K-fold 3
+Min samples split: 2 max features: 0.6
+K-fold 4
+Min samples split: 2 max features: 0.7000000000000001
+K-fold 5
+Min samples split: 2 max features: 0.8
+K-fold 6
+Min samples split: 2 max features: 0.30000000000000004
+K-fold 7
+Min samples split: 2 max features: 0.5
+K-fold 8
+Min samples split: 2 max features: 0.8
+K-fold 9
+Min samples split: 2 max features: 0.30000000000000004
+K-fold 10
+Min samples split: 2 max features: 0.4
+minisat IBM-ALL RMSE: 0.20382298396060383 R2: 0.9863899475646776
+
+
+Random forest model - attempt 0
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SWV RMSE: 0.08321999162521503 R2: 0.9915139046000965
+Random forest model - attempt 1
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SWV RMSE: 0.0821184989520482 R2: 0.9917370603880011
+Random forest model - attempt 2
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SWV RMSE: 0.08162955722811788 R2: 0.991835164187344
+Random forest model - attempt 3
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SWV RMSE: 0.08030244234858509 R2: 0.9920984902051089
+Random forest model - attempt 4
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SWV RMSE: 0.08069918060354477 R2: 0.9920202217238204
+Random forest model - attempt 5
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SWV RMSE: 0.08112778190276454 R2: 0.9919352338547955
+Random forest model - attempt 6
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SWV RMSE: 0.08041167861024472 R2: 0.9920769785691093
+Random forest model - attempt 7
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+minisat SWV RMSE: 0.08042379806179488 R2: 0.9920745901123037
+Random forest model with tuning metaparams
+K-fold 1
+Min samples split: 2 max features: 0.6
+K-fold 2
+Min samples split: 2 max features: 0.8
+K-fold 3
+Min samples split: 2 max features: 0.8
+K-fold 4
+Min samples split: 2 max features: 0.7000000000000001
+K-fold 5
+Min samples split: 2 max features: 0.9
+K-fold 6
+Min samples split: 2 max features: 0.6
+K-fold 7
+Min samples split: 2 max features: 0.9
+K-fold 8
+Min samples split: 2 max features: 0.5
+K-fold 9
+Min samples split: 2 max features: 0.9
+K-fold 10
+Min samples split: 2 max features: 0.4
+minisat SWV RMSE: 0.08364935315986886 R2: 0.9914261131405081
+
+
+
+
+
+Random forest model - attempt 0
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat SAT_Competition_RACE_INDU RMSE: 0.7409784172676035 R2: 0.8220853341239295
+Random forest model - attempt 1
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat SAT_Competition_RACE_INDU RMSE: 0.7188244321962317 R2: 0.8325649821979232
+Random forest model - attempt 2
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat SAT_Competition_RACE_INDU RMSE: 0.7155994609770852 R2: 0.834063990321924
+Random forest model - attempt 3
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat SAT_Competition_RACE_INDU RMSE: 0.7071944453439682 R2: 0.83793907462197
+Random forest model - attempt 4
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat SAT_Competition_RACE_INDU RMSE: 0.7011379118313027 R2: 0.8407030229198457
+Random forest model - attempt 5
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat SAT_Competition_RACE_INDU RMSE: 0.6953780474341089 R2: 0.8433095293157127
+Random forest model - attempt 6
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat SAT_Competition_RACE_INDU RMSE: 0.6947136777651338 R2: 0.8436087929101111
+Random forest model - attempt 7
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat SAT_Competition_RACE_INDU RMSE: 0.6955151686680068 R2: 0.8432477277988953
+Random forest model with tuning metaparams
+K-fold 1
+Min samples split: 2 max features: 1.0
+K-fold 2
+Min samples split: 2 max features: 0.9
+K-fold 3
+Min samples split: 2 max features: 0.9
+K-fold 4
+Min samples split: 2 max features: 1.0
+K-fold 5
+Min samples split: 2 max features: 0.9
+K-fold 6
+Min samples split: 2 max features: 0.8
+K-fold 7
+Min samples split: 2 max features: 1.0
+K-fold 8
+Min samples split: 2 max features: 1.0
+K-fold 9
+Min samples split: 2 max features: 0.9
+K-fold 10
+Min samples split: 2 max features: 1.0
+cryptominisat SAT_Competition_RACE_INDU RMSE: 0.7012544264380344 R2: 0.8406500748007837
+
+
+Random forest model - attempt 0
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat IBM-SWV RMSE: 0.5106649031452724 R2: 0.9206591841055374
+Random forest model - attempt 1
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat IBM-SWV RMSE: 0.48465696567642885 R2: 0.9285349735912214
+Random forest model - attempt 2
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat IBM-SWV RMSE: 0.4799235748626171 R2: 0.9299240799534166
+Random forest model - attempt 3
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat IBM-SWV RMSE: 0.47794337001539056 R2: 0.9305011651664262
+Random forest model - attempt 4
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat IBM-SWV RMSE: 0.4701949847882862 R2: 0.9327363197294656
+Random forest model - attempt 5
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat IBM-SWV RMSE: 0.4685590091633053 R2: 0.9332035739866996
+Random forest model - attempt 6
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat IBM-SWV RMSE: 0.4669627977952448 R2: 0.9336579014138787
+Random forest model - attempt 7
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat IBM-SWV RMSE: 0.4660782709259745 R2: 0.9339089954690907
+Random forest model with tuning metaparams
+K-fold 1
+Min samples split: 2 max features: 0.30000000000000004
+K-fold 2
+Min samples split: 2 max features: 0.8
+K-fold 3
+Min samples split: 2 max features: 0.8
+K-fold 4
+Min samples split: 2 max features: 0.4
+K-fold 5
+Min samples split: 2 max features: 0.2
+K-fold 6
+Min samples split: 2 max features: 0.8
+K-fold 7
+Min samples split: 2 max features: 0.5
+K-fold 8
+Min samples split: 2 max features: 0.4
+K-fold 9
+Min samples split: 2 max features: 0.30000000000000004
+K-fold 10
+Min samples split: 2 max features: 0.30000000000000004
+cryptominisat IBM-SWV RMSE: 0.4659403939588962 R2: 0.9339480922474155
+
+
+Random forest model - attempt 0
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat IBM-ALL RMSE: 0.44041652839688894 R2: 0.9417307337533501
+Random forest model - attempt 1
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat IBM-ALL RMSE: 0.43464143002396777 R2: 0.943248862262905
+Random forest model - attempt 2
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat IBM-ALL RMSE: 0.42685916351263536 R2: 0.9452629297157201
+Random forest model - attempt 3
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat IBM-ALL RMSE: 0.43068415076097266 R2: 0.9442775618667667
+Random forest model - attempt 4
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat IBM-ALL RMSE: 0.42805250039867426 R2: 0.9449564535976813
+Random forest model - attempt 5
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat IBM-ALL RMSE: 0.42370192956421504 R2: 0.9460696530291943
+Random forest model - attempt 6
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat IBM-ALL RMSE: 0.42344903773548304 R2: 0.9461340118293314
+Random forest model - attempt 7
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat IBM-ALL RMSE: 0.4224134589220372 R2: 0.9463971569111485
+Random forest model with tuning metaparams
+K-fold 1
+Min samples split: 2 max features: 0.2
+K-fold 2
+Min samples split: 2 max features: 0.7000000000000001
+K-fold 3
+Min samples split: 2 max features: 0.8
+K-fold 4
+Min samples split: 2 max features: 0.7000000000000001
+K-fold 5
+Min samples split: 2 max features: 0.5
+K-fold 6
+Min samples split: 2 max features: 0.5
+K-fold 7
+Min samples split: 2 max features: 0.30000000000000004
+K-fold 8
+Min samples split: 2 max features: 0.6
+K-fold 9
+Min samples split: 2 max features: 0.8
+K-fold 10
+Min samples split: 2 max features: 0.9
+cryptominisat IBM-ALL RMSE: 0.42673464353826024 R2: 0.9452948599870487
+
+
+Random forest model - attempt 0
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat SWV RMSE: 0.5366740787763835 R2: 0.8904412405154443
+Random forest model - attempt 1
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat SWV RMSE: 0.5221608063422365 R2: 0.8962867107888483
+Random forest model - attempt 2
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat SWV RMSE: 0.5247094697256165 R2: 0.8952717921795588
+Random forest model - attempt 3
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat SWV RMSE: 0.5175344982766892 R2: 0.8981163543805808
+Random forest model - attempt 4
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat SWV RMSE: 0.5140248664256784 R2: 0.8994935056793057
+Random forest model - attempt 5
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat SWV RMSE: 0.5122688168689519 R2: 0.9001790480324439
+Random forest model - attempt 6
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat SWV RMSE: 0.5119227226615976 R2: 0.9003138826419289
+Random forest model - attempt 7
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+cryptominisat SWV RMSE: 0.5108903347993122 R2: 0.9007155485951859
+Random forest model with tuning metaparams
+K-fold 1
+Min samples split: 2 max features: 0.6
+K-fold 2
+Min samples split: 2 max features: 0.30000000000000004
+K-fold 3
+Min samples split: 2 max features: 0.1
+K-fold 4
+Min samples split: 2 max features: 0.1
+K-fold 5
+Min samples split: 2 max features: 0.2
+K-fold 6
+Min samples split: 2 max features: 0.1
+K-fold 7
+Min samples split: 2 max features: 0.4
+K-fold 8
+Min samples split: 2 max features: 0.1
+K-fold 9
+Min samples split: 2 max features: 0.8
+K-fold 10
+Min samples split: 2 max features: 0.2
+cryptominisat SWV RMSE: 0.5143812029550833 R2: 0.8993541095084465
+
+
+
+
+
+Random forest model - attempt 0
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+saps SAT_Competition_RACE_RAND_SAT RMSE: 0.653805144055413 R2: 0.9162850341222897
+Random forest model - attempt 1
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+saps SAT_Competition_RACE_RAND_SAT RMSE: 0.6402052172108957 R2: 0.9197315538136309
+Random forest model - attempt 2
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+saps SAT_Competition_RACE_RAND_SAT RMSE: 0.6354390190807621 R2: 0.9209222695716743
+Random forest model - attempt 3
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+saps SAT_Competition_RACE_RAND_SAT RMSE: 0.6333117732627319 R2: 0.9214508370557773
+Random forest model - attempt 4
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+saps SAT_Competition_RACE_RAND_SAT RMSE: 0.6304972163674029 R2: 0.9221474602182885
+Random forest model - attempt 5
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+saps SAT_Competition_RACE_RAND_SAT RMSE: 0.6302233062234789 R2: 0.922215089282288
+Random forest model - attempt 6
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+saps SAT_Competition_RACE_RAND_SAT RMSE: 0.6300563703402718 R2: 0.922256291735047
+Random forest model - attempt 7
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+saps SAT_Competition_RACE_RAND_SAT RMSE: 0.6296170212574337 R2: 0.9223646779669142
+Random forest model with tuning metaparams
+K-fold 1
+Min samples split: 2 max features: 0.7000000000000001
+K-fold 2
+Min samples split: 2 max features: 0.4
+K-fold 3
+Min samples split: 2 max features: 0.9
+K-fold 4
+Min samples split: 2 max features: 0.6
+K-fold 5
+Min samples split: 2 max features: 0.7000000000000001
+K-fold 6
+Min samples split: 2 max features: 0.8
+K-fold 7
+Min samples split: 2 max features: 1.0
+K-fold 8
+Min samples split: 2 max features: 1.0
+K-fold 9
+Min samples split: 2 max features: 0.8
+K-fold 10
+Min samples split: 2 max features: 0.9
+saps SAT_Competition_RACE_RAND_SAT RMSE: 0.6452788314139436 R2: 0.9184542607008261
+
+
+
+
+
+Random forest model - attempt 0
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+tnm SAT_Competition_RACE_RAND_SAT RMSE: 0.8892219539227306 R2: 0.814088805778412
+Random forest model - attempt 1
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+tnm SAT_Competition_RACE_RAND_SAT RMSE: 0.8529995025696746 R2: 0.8289264988673151
+Random forest model - attempt 2
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+tnm SAT_Competition_RACE_RAND_SAT RMSE: 0.8458447545860005 R2: 0.8317843071798103
+Random forest model - attempt 3
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+tnm SAT_Competition_RACE_RAND_SAT RMSE: 0.8454414009170141 R2: 0.8319447012444928
+Random forest model - attempt 4
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+tnm SAT_Competition_RACE_RAND_SAT RMSE: 0.8402908590944348 R2: 0.8339860946327036
+Random forest model - attempt 5
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+tnm SAT_Competition_RACE_RAND_SAT RMSE: 0.8337977399855214 R2: 0.8365418365508941
+Random forest model - attempt 6
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+tnm SAT_Competition_RACE_RAND_SAT RMSE: 0.8334638644248631 R2: 0.8366727166354663
+Random forest model - attempt 7
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+tnm SAT_Competition_RACE_RAND_SAT RMSE: 0.8338782095021265 R2: 0.8365102844526286
+Random forest model with tuning metaparams
+K-fold 1
+Min samples split: 2 max features: 0.6
+K-fold 2
+Min samples split: 2 max features: 0.5
+K-fold 3
+Min samples split: 2 max features: 0.6
+K-fold 4
+Min samples split: 2 max features: 0.30000000000000004
+K-fold 5
+Min samples split: 2 max features: 0.5
+K-fold 6
+Min samples split: 2 max features: 0.7000000000000001
+K-fold 7
+Min samples split: 2 max features: 0.8
+K-fold 8
+Min samples split: 2 max features: 0.1
+K-fold 9
+Min samples split: 2 max features: 0.7000000000000001
+K-fold 10
+Min samples split: 2 max features: 0.7000000000000001
+tnm SAT_Competition_RACE_RAND_SAT RMSE: 0.8384016479409006 R2: 0.8347317477547944
+
+
+
+
+
+Random forest model - attempt 0
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear SAT_Competition_RACE_INDU RMSE: 0.6429612171395583 R2: 0.872032452192099
+Random forest model - attempt 1
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear SAT_Competition_RACE_INDU RMSE: 0.606782370703442 R2: 0.8860285163727106
+Random forest model - attempt 2
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear SAT_Competition_RACE_INDU RMSE: 0.5974300549575325 R2: 0.8895147184537732
+Random forest model - attempt 3
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear SAT_Competition_RACE_INDU RMSE: 0.5935237652065574 R2: 0.8909548085673034
+Random forest model - attempt 4
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear SAT_Competition_RACE_INDU RMSE: 0.5953687078132273 R2: 0.8902758305231584
+Random forest model - attempt 5
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear SAT_Competition_RACE_INDU RMSE: 0.5957114575409814 R2: 0.8901494592374746
+Random forest model - attempt 6
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear SAT_Competition_RACE_INDU RMSE: 0.5916397063468867 R2: 0.8916460074329917
+Random forest model - attempt 7
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear SAT_Competition_RACE_INDU RMSE: 0.5924302664268521 R2: 0.8913562446919637
+Random forest model with tuning metaparams
+K-fold 1
+Min samples split: 2 max features: 0.9
+K-fold 2
+Min samples split: 2 max features: 0.8
+K-fold 3
+Min samples split: 2 max features: 0.9
+K-fold 4
+Min samples split: 2 max features: 0.8
+K-fold 5
+Min samples split: 2 max features: 0.9
+K-fold 6
+Min samples split: 2 max features: 0.9
+K-fold 7
+Min samples split: 2 max features: 1.0
+K-fold 8
+Min samples split: 2 max features: 0.8
+K-fold 9
+Min samples split: 2 max features: 1.0
+K-fold 10
+Min samples split: 2 max features: 0.9
+spear SAT_Competition_RACE_INDU RMSE: 0.5934448221338905 R2: 0.8909838142802596
+
+
+Random forest model - attempt 0
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear IBM-SWV RMSE: 0.3693127800331064 R2: 0.955703405686145
+Random forest model - attempt 1
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear IBM-SWV RMSE: 0.3626454703707839 R2: 0.9572883667609324
+Random forest model - attempt 2
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear IBM-SWV RMSE: 0.3629782767621899 R2: 0.9572099362923969
+Random forest model - attempt 3
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear IBM-SWV RMSE: 0.35919277624986984 R2: 0.9580977974358911
+Random forest model - attempt 4
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear IBM-SWV RMSE: 0.35735944036347533 R2: 0.9585244472369367
+Random forest model - attempt 5
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear IBM-SWV RMSE: 0.3557518242459539 R2: 0.9588967714776736
+Random forest model - attempt 6
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear IBM-SWV RMSE: 0.35400470423619795 R2: 0.9592995013067115
+Random forest model - attempt 7
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear IBM-SWV RMSE: 0.35436178827765696 R2: 0.9592173508248198
+Random forest model with tuning metaparams
+K-fold 1
+Min samples split: 2 max features: 0.5
+K-fold 2
+Min samples split: 2 max features: 0.5
+K-fold 3
+Min samples split: 2 max features: 0.4
+K-fold 4
+Min samples split: 2 max features: 0.4
+K-fold 5
+Min samples split: 2 max features: 0.4
+K-fold 6
+Min samples split: 2 max features: 0.4
+K-fold 7
+Min samples split: 2 max features: 0.6
+K-fold 8
+Min samples split: 2 max features: 0.30000000000000004
+K-fold 9
+Min samples split: 2 max features: 0.30000000000000004
+K-fold 10
+Min samples split: 2 max features: 0.4
+spear IBM-SWV RMSE: 0.3488540795116628 R2: 0.9604752368542729
+
+
+Random forest model - attempt 0
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear IBM-ALL RMSE: 0.38769393150662945 R2: 0.9560121448740437
+Random forest model - attempt 1
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear IBM-ALL RMSE: 0.37179918755960895 R2: 0.9595450515014315
+Random forest model - attempt 2
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear IBM-ALL RMSE: 0.3757415068204746 R2: 0.9586825866377057
+Random forest model - attempt 3
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear IBM-ALL RMSE: 0.3756624714517801 R2: 0.958699966636958
+Random forest model - attempt 4
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear IBM-ALL RMSE: 0.37260168626938306 R2: 0.9593702255111788
+Random forest model - attempt 5
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear IBM-ALL RMSE: 0.3692207105911151 R2: 0.9601042267072666
+Random forest model - attempt 6
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear IBM-ALL RMSE: 0.37086127732790086 R2: 0.9597488994562055
+Random forest model - attempt 7
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear IBM-ALL RMSE: 0.3699354249261687 R2: 0.9599496217344246
+Random forest model with tuning metaparams
+K-fold 1
+Min samples split: 2 max features: 0.30000000000000004
+K-fold 2
+Min samples split: 2 max features: 0.6
+K-fold 3
+Min samples split: 2 max features: 0.2
+K-fold 4
+Min samples split: 2 max features: 0.7000000000000001
+K-fold 5
+Min samples split: 2 max features: 0.9
+K-fold 6
+Min samples split: 2 max features: 0.8
+K-fold 7
+Min samples split: 2 max features: 0.30000000000000004
+K-fold 8
+Min samples split: 2 max features: 1.0
+K-fold 9
+Min samples split: 2 max features: 0.8
+K-fold 10
+Min samples split: 2 max features: 0.4
+spear IBM-ALL RMSE: 0.37470560560231914 R2: 0.9589100928260982
+
+
+Random forest model - attempt 0
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear SWV RMSE: 0.39511519434591774 R2: 0.8964671837463617
+Random forest model - attempt 1
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear SWV RMSE: 0.38279142349159 R2: 0.9028249073925753
+Random forest model - attempt 2
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear SWV RMSE: 0.38378966872926557 R2: 0.902317419230919
+Random forest model - attempt 3
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear SWV RMSE: 0.38137359826408734 R2: 0.9035434299714226
+Random forest model - attempt 4
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear SWV RMSE: 0.3768690153002401 R2: 0.9058085610768499
+Random forest model - attempt 5
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear SWV RMSE: 0.3784114918216629 R2: 0.9050359562731219
+Random forest model - attempt 6
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear SWV RMSE: 0.37722899582161545 R2: 0.9056285341936402
+Random forest model - attempt 7
+K-fold 1
+K-fold 2
+K-fold 3
+K-fold 4
+K-fold 5
+K-fold 6
+K-fold 7
+K-fold 8
+K-fold 9
+K-fold 10
+spear SWV RMSE: 0.3774981254895208 R2: 0.9054938296955982
+Random forest model with tuning metaparams
+K-fold 1
+Min samples split: 2 max features: 0.7000000000000001
+K-fold 2
+Min samples split: 2 max features: 0.30000000000000004
+K-fold 3
+Min samples split: 2 max features: 0.5
+K-fold 4
+Min samples split: 2 max features: 0.6
+K-fold 5
+Min samples split: 2 max features: 0.5
+K-fold 6
+Min samples split: 2 max features: 0.2
+K-fold 7
+Min samples split: 2 max features: 0.4
+K-fold 8
+Min samples split: 2 max features: 0.30000000000000004
+K-fold 9
+Min samples split: 2 max features: 0.4
+K-fold 10
+Min samples split: 2 max features: 0.6
+spear SWV RMSE: 0.371665047606485 R2: 0.9083918722696697
+
+
+
+
+

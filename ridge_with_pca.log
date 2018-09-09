@@ -1,0 +1,1681 @@
+Ridge regression model with PCA feature selection - attempt 0
+K-fold 1
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 3
+Regularization parameter: 1e-06
+tnm SAT_Competition_RACE_RAND_SAT RMSE: 1.8274577392925169 R2: 0.21480075597103077
+Ridge regression model with PCA feature selection - attempt 1
+K-fold 1
+Number of components: 22
+Regularization parameter: 100.0
+K-fold 2
+Number of components: 22
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 22
+Regularization parameter: 100.0
+K-fold 4
+Number of components: 22
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 22
+Regularization parameter: 100.0
+K-fold 6
+Number of components: 22
+Regularization parameter: 100.0
+K-fold 7
+Number of components: 22
+Regularization parameter: 100.0
+K-fold 8
+Number of components: 22
+Regularization parameter: 100.0
+K-fold 9
+Number of components: 22
+Regularization parameter: 100.0
+K-fold 10
+Number of components: 22
+Regularization parameter: 100.0
+tnm SAT_Competition_RACE_RAND_SAT RMSE: 1.5343361635143016 R2: 0.44648903287417996
+Ridge regression model with PCA feature selection - attempt 2
+K-fold 1
+Number of components: 134
+Regularization parameter: 100.0
+K-fold 2
+Number of components: 132
+Regularization parameter: 100.0
+K-fold 3
+Number of components: 134
+Regularization parameter: 100.0
+K-fold 4
+Number of components: 134
+Regularization parameter: 100.0
+K-fold 5
+Number of components: 133
+Regularization parameter: 100.0
+K-fold 6
+Number of components: 134
+Regularization parameter: 100.0
+K-fold 7
+Number of components: 134
+Regularization parameter: 100.0
+K-fold 8
+Number of components: 133
+Regularization parameter: 100.0
+K-fold 9
+Number of components: 135
+Regularization parameter: 100.0
+K-fold 10
+Number of components: 137
+Regularization parameter: 100.0
+tnm SAT_Competition_RACE_RAND_SAT RMSE: 1.1547104144726936 R2: 0.6865044695917369
+
+
+
+
+
+Ridge regression model with PCA feature selection - attempt 0
+K-fold 1
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 4
+Regularization parameter: 1e-06
+spear SAT_Competition_RACE_INDU RMSE: 1.7853777373680049 R2: 0.013287743034934851
+Ridge regression model with PCA feature selection - attempt 1
+K-fold 1
+Number of components: 12
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 12
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 13
+Regularization parameter: 1e-06
+spear SAT_Competition_RACE_INDU RMSE: 5.162411783293836 R2: -7.249651066387463
+Ridge regression model with PCA feature selection - attempt 2
+K-fold 1
+Number of components: 47
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 47
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 46
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 47
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 46
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 47
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 46
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 46
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 47
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 47
+Regularization parameter: 1e-06
+spear SAT_Competition_RACE_INDU RMSE: 6.6377762288276605 R2: -12.638779491905284
+
+
+Ridge regression model with PCA feature selection - attempt 0
+K-fold 1
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 2
+Regularization parameter: 1e-06
+spear IBM-SWV RMSE: 1.7054947490494357 R2: 0.05532496728898151
+Ridge regression model with PCA feature selection - attempt 1
+K-fold 1
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 11
+Regularization parameter: 1e-06
+spear IBM-SWV RMSE: 1.565211568523743 R2: 0.2043395660068401
+Ridge regression model with PCA feature selection - attempt 2
+K-fold 1
+Number of components: 56
+Regularization parameter: 100.0
+K-fold 2
+Number of components: 57
+Regularization parameter: 100.0
+K-fold 3
+Number of components: 56
+Regularization parameter: 100.0
+K-fold 4
+Number of components: 58
+Regularization parameter: 100.0
+K-fold 5
+Number of components: 57
+Regularization parameter: 100.0
+K-fold 6
+Number of components: 60
+Regularization parameter: 100.0
+K-fold 7
+Number of components: 57
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 56
+Regularization parameter: 100.0
+K-fold 9
+Number of components: 56
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 56
+Regularization parameter: 100.0
+spear IBM-SWV RMSE: 1.2394035759564703 R2: 0.5011072947488079
+
+
+Ridge regression model with PCA feature selection - attempt 0
+K-fold 1
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 2
+Regularization parameter: 1e-06
+spear IBM-ALL RMSE: 1.8062890709660957 R2: 0.045162893171761254
+Ridge regression model with PCA feature selection - attempt 1
+K-fold 1
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 10
+Regularization parameter: 1e-06
+spear IBM-ALL RMSE: 1.7001393844354022 R2: 0.1540906293316202
+Ridge regression model with PCA feature selection - attempt 2
+K-fold 1
+Number of components: 53
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 52
+Regularization parameter: 100.0
+K-fold 3
+Number of components: 51
+Regularization parameter: 100.0
+K-fold 4
+Number of components: 52
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 53
+Regularization parameter: 100.0
+K-fold 6
+Number of components: 50
+Regularization parameter: 100.0
+K-fold 7
+Number of components: 51
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 51
+Regularization parameter: 100.0
+K-fold 9
+Number of components: 51
+Regularization parameter: 100.0
+K-fold 10
+Number of components: 51
+Regularization parameter: 100.0
+spear IBM-ALL RMSE: 1.2868351091913872 R2: 0.5153808376824073
+
+
+Ridge regression model with PCA feature selection - attempt 0
+K-fold 1
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 3
+Regularization parameter: 1e-06
+spear SWV RMSE: 0.8462359553844876 R2: 0.5250875952349372
+Ridge regression model with PCA feature selection - attempt 1
+K-fold 1
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 15
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 14
+Regularization parameter: 1e-06
+spear SWV RMSE: 0.7185532281253895 R2: 0.6575884108358347
+Ridge regression model with PCA feature selection - attempt 2
+K-fold 1
+Number of components: 66
+Regularization parameter: 100.0
+K-fold 2
+Number of components: 66
+Regularization parameter: 100.0
+K-fold 3
+Number of components: 69
+Regularization parameter: 100.0
+K-fold 4
+Number of components: 65
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 65
+Regularization parameter: 100.0
+K-fold 6
+Number of components: 67
+Regularization parameter: 100.0
+K-fold 7
+Number of components: 65
+Regularization parameter: 100.0
+K-fold 8
+Number of components: 66
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 66
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 67
+Regularization parameter: 100.0
+spear SWV RMSE: 0.6953549407521725 R2: 0.6793408365059879
+
+
+
+
+
+Ridge regression model with PCA feature selection - attempt 0
+K-fold 1
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 4
+Regularization parameter: 1e-06
+minisat INDU-HAND-RAND RMSE: 1.8042228063434629 R2: 0.001087130963601246
+Ridge regression model with PCA feature selection - attempt 1
+K-fold 1
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 13
+Regularization parameter: 1e-06
+minisat INDU-HAND-RAND RMSE: 2.8020328760496698 R2: -1.4093157783425885
+Ridge regression model with PCA feature selection - attempt 2
+K-fold 1
+Number of components: 53
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 52
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 52
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 53
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 53
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 53
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 53
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 53
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 53
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 53
+Regularization parameter: 1e-06
+minisat INDU-HAND-RAND RMSE: 9.59551659021039 R2: -27.254263626385463
+
+
+Ridge regression model with PCA feature selection - attempt 0
+K-fold 1
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 3
+Regularization parameter: 1e-06
+minisat SAT_Competition_RACE_HAND RMSE: 1.8653008285049388 R2: 0.006256317933593714
+Ridge regression model with PCA feature selection - attempt 1
+K-fold 1
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 10
+Regularization parameter: 1e-06
+minisat SAT_Competition_RACE_HAND RMSE: 1.8613418299450628 R2: 0.010470174114632025
+Ridge regression model with PCA feature selection - attempt 2
+K-fold 1
+Number of components: 53
+Regularization parameter: 100.0
+K-fold 2
+Number of components: 50
+Regularization parameter: 100.0
+K-fold 3
+Number of components: 50
+Regularization parameter: 100.0
+K-fold 4
+Number of components: 51
+Regularization parameter: 100.0
+K-fold 5
+Number of components: 51
+Regularization parameter: 100.0
+K-fold 6
+Number of components: 52
+Regularization parameter: 100.0
+K-fold 7
+Number of components: 53
+Regularization parameter: 100.0
+K-fold 8
+Number of components: 51
+Regularization parameter: 100.0
+K-fold 9
+Number of components: 51
+Regularization parameter: 100.0
+K-fold 10
+Number of components: 51
+Regularization parameter: 100.0
+minisat SAT_Competition_RACE_HAND RMSE: 2.3072565499275672 R2: -0.5204368590547845
+
+
+Ridge regression model with PCA feature selection - attempt 0
+K-fold 1
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 3
+Regularization parameter: 1e-06
+minisat SAT_Competition_RACE_RAND RMSE: 1.6123022577728496 R2: 0.14096249791386717
+Ridge regression model with PCA feature selection - attempt 1
+K-fold 1
+Number of components: 26
+Regularization parameter: 100.0
+K-fold 2
+Number of components: 26
+Regularization parameter: 100.0
+K-fold 3
+Number of components: 26
+Regularization parameter: 100.0
+K-fold 4
+Number of components: 26
+Regularization parameter: 100.0
+K-fold 5
+Number of components: 26
+Regularization parameter: 100.0
+K-fold 6
+Number of components: 26
+Regularization parameter: 100.0
+K-fold 7
+Number of components: 26
+Regularization parameter: 100.0
+K-fold 8
+Number of components: 26
+Regularization parameter: 100.0
+K-fold 9
+Number of components: 26
+Regularization parameter: 100.0
+K-fold 10
+Number of components: 26
+Regularization parameter: 100.0
+minisat SAT_Competition_RACE_RAND RMSE: 1.1840984859792105 R2: 0.536665273785472
+Ridge regression model with PCA feature selection - attempt 2
+K-fold 1
+Number of components: 154
+Regularization parameter: 100.0
+K-fold 2
+Number of components: 154
+Regularization parameter: 100.0
+K-fold 3
+Number of components: 154
+Regularization parameter: 100.0
+K-fold 4
+Number of components: 156
+Regularization parameter: 100.0
+K-fold 5
+Number of components: 155
+Regularization parameter: 100.0
+K-fold 6
+Number of components: 154
+Regularization parameter: 100.0
+K-fold 7
+Number of components: 156
+Regularization parameter: 100.0
+K-fold 8
+Number of components: 156
+Regularization parameter: 100.0
+K-fold 9
+Number of components: 154
+Regularization parameter: 100.0
+K-fold 10
+Number of components: 155
+Regularization parameter: 100.0
+minisat SAT_Competition_RACE_RAND RMSE: 0.8953171487498484 R2: 0.7351054607848635
+
+
+Ridge regression model with PCA feature selection - attempt 0
+K-fold 1
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 4
+Regularization parameter: 1e-06
+minisat SAT_Competition_RACE_INDU RMSE: 1.7040063241180077 R2: 0.013120570296497047
+Ridge regression model with PCA feature selection - attempt 1
+K-fold 1
+Number of components: 12
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 12
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 13
+Regularization parameter: 1e-06
+minisat SAT_Competition_RACE_INDU RMSE: 6.182149598664552 R2: -11.989747599689785
+Ridge regression model with PCA feature selection - attempt 2
+K-fold 1
+Number of components: 47
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 47
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 46
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 47
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 46
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 47
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 46
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 46
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 47
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 47
+Regularization parameter: 1e-06
+minisat SAT_Competition_RACE_INDU RMSE: 8.083905583124874 R2: -21.210797736455174
+
+
+Ridge regression model with PCA feature selection - attempt 0
+K-fold 1
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 2
+Regularization parameter: 1e-06
+minisat IBM-SWV RMSE: 1.5680849367150402 R2: 0.0673319293964818
+Ridge regression model with PCA feature selection - attempt 1
+K-fold 1
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 11
+Regularization parameter: 1e-06
+minisat IBM-SWV RMSE: 1.4508584474290898 R2: 0.20156782686319663
+Ridge regression model with PCA feature selection - attempt 2
+K-fold 1
+Number of components: 56
+Regularization parameter: 100.0
+K-fold 2
+Number of components: 57
+Regularization parameter: 100.0
+K-fold 3
+Number of components: 56
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 58
+Regularization parameter: 100.0
+K-fold 5
+Number of components: 57
+Regularization parameter: 100.0
+K-fold 6
+Number of components: 60
+Regularization parameter: 100.0
+K-fold 7
+Number of components: 57
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 56
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 56
+Regularization parameter: 100.0
+K-fold 10
+Number of components: 56
+Regularization parameter: 100.0
+minisat IBM-SWV RMSE: 1.1590604300119782 R2: 0.4904343995952031
+
+
+Ridge regression model with PCA feature selection - attempt 0
+K-fold 1
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 2
+Regularization parameter: 1e-06
+minisat IBM-ALL RMSE: 1.7006132131714677 R2: 0.05253192383272154
+Ridge regression model with PCA feature selection - attempt 1
+K-fold 1
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 10
+Regularization parameter: 1e-06
+minisat IBM-ALL RMSE: 1.624925967246941 R2: 0.1349909609544735
+Ridge regression model with PCA feature selection - attempt 2
+K-fold 1
+Number of components: 53
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 52
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 51
+Regularization parameter: 100.0
+K-fold 4
+Number of components: 52
+Regularization parameter: 100.0
+K-fold 5
+Number of components: 53
+Regularization parameter: 100.0
+K-fold 6
+Number of components: 50
+Regularization parameter: 100.0
+K-fold 7
+Number of components: 51
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 51
+Regularization parameter: 100.0
+K-fold 9
+Number of components: 51
+Regularization parameter: 100.0
+K-fold 10
+Number of components: 51
+Regularization parameter: 100.0
+minisat IBM-ALL RMSE: 1.2529264910771554 R2: 0.4857140364365169
+
+
+Ridge regression model with PCA feature selection - attempt 0
+K-fold 1
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 3
+Regularization parameter: 1e-06
+minisat SWV RMSE: 0.6765755469408552 R2: 0.43910035022027705
+Ridge regression model with PCA feature selection - attempt 1
+K-fold 1
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 15
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 14
+Regularization parameter: 1e-06
+minisat SWV RMSE: 0.5625116196247723 R2: 0.6122823514224998
+Ridge regression model with PCA feature selection - attempt 2
+K-fold 1
+Number of components: 66
+Regularization parameter: 100.0
+K-fold 2
+Number of components: 66
+Regularization parameter: 100.0
+K-fold 3
+Number of components: 69
+Regularization parameter: 100.0
+K-fold 4
+Number of components: 65
+Regularization parameter: 100.0
+K-fold 5
+Number of components: 65
+Regularization parameter: 100.0
+K-fold 6
+Number of components: 67
+Regularization parameter: 100.0
+K-fold 7
+Number of components: 65
+Regularization parameter: 100.0
+K-fold 8
+Number of components: 66
+Regularization parameter: 100.0
+K-fold 9
+Number of components: 66
+Regularization parameter: 100.0
+K-fold 10
+Number of components: 67
+Regularization parameter: 100.0
+minisat SWV RMSE: 0.499738709626939 R2: 0.6939879301659538
+
+
+
+
+
+Ridge regression model with PCA feature selection - attempt 0
+K-fold 1
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 3
+Regularization parameter: 1e-06
+saps SAT_Competition_RACE_RAND_SAT RMSE: 1.9459457234262794 R2: 0.2584031379429057
+Ridge regression model with PCA feature selection - attempt 1
+K-fold 1
+Number of components: 22
+Regularization parameter: 100.0
+K-fold 2
+Number of components: 22
+Regularization parameter: 100.0
+K-fold 3
+Number of components: 22
+Regularization parameter: 100.0
+K-fold 4
+Number of components: 22
+Regularization parameter: 100.0
+K-fold 5
+Number of components: 22
+Regularization parameter: 100.0
+K-fold 6
+Number of components: 22
+Regularization parameter: 100.0
+K-fold 7
+Number of components: 22
+Regularization parameter: 100.0
+K-fold 8
+Number of components: 22
+Regularization parameter: 100.0
+K-fold 9
+Number of components: 22
+Regularization parameter: 100.0
+K-fold 10
+Number of components: 22
+Regularization parameter: 100.0
+saps SAT_Competition_RACE_RAND_SAT RMSE: 1.6202017257239014 R2: 0.48590353344267057
+Ridge regression model with PCA feature selection - attempt 2
+K-fold 1
+Number of components: 134
+Regularization parameter: 100.0
+K-fold 2
+Number of components: 132
+Regularization parameter: 100.0
+K-fold 3
+Number of components: 134
+Regularization parameter: 100.0
+K-fold 4
+Number of components: 134
+Regularization parameter: 100.0
+K-fold 5
+Number of components: 133
+Regularization parameter: 100.0
+K-fold 6
+Number of components: 134
+Regularization parameter: 100.0
+K-fold 7
+Number of components: 134
+Regularization parameter: 100.0
+K-fold 8
+Number of components: 133
+Regularization parameter: 100.0
+K-fold 9
+Number of components: 135
+Regularization parameter: 100.0
+K-fold 10
+Number of components: 137
+Regularization parameter: 100.0
+saps SAT_Competition_RACE_RAND_SAT RMSE: 1.1921394591549341 R2: 0.7216696508926561
+
+
+
+
+
+Ridge regression model with PCA feature selection - attempt 0
+K-fold 1
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 4
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 4
+Regularization parameter: 1e-06
+cryptominisat SAT_Competition_RACE_INDU RMSE: 1.7577095386214547 R2: -0.0011400877539506915
+Ridge regression model with PCA feature selection - attempt 1
+K-fold 1
+Number of components: 12
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 12
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 13
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 13
+Regularization parameter: 1e-06
+cryptominisat SAT_Competition_RACE_INDU RMSE: 4.0341496420696 R2: -4.2735690925157765
+Ridge regression model with PCA feature selection - attempt 2
+K-fold 1
+Number of components: 47
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 47
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 46
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 47
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 46
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 47
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 46
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 46
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 47
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 47
+Regularization parameter: 1e-06
+cryptominisat SAT_Competition_RACE_INDU RMSE: 2.392224269101731 R2: -0.854404261661017
+
+
+Ridge regression model with PCA feature selection - attempt 0
+K-fold 1
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 2
+Regularization parameter: 1e-06
+cryptominisat IBM-SWV RMSE: 1.7845269566302362 R2: 0.031118048255732833
+Ridge regression model with PCA feature selection - attempt 1
+K-fold 1
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 11
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 11
+Regularization parameter: 1e-06
+cryptominisat IBM-SWV RMSE: 1.613169596955704 R2: 0.20825615232727201
+Ridge regression model with PCA feature selection - attempt 2
+K-fold 1
+Number of components: 56
+Regularization parameter: 100.0
+K-fold 2
+Number of components: 57
+Regularization parameter: 100.0
+K-fold 3
+Number of components: 56
+Regularization parameter: 100.0
+K-fold 4
+Number of components: 58
+Regularization parameter: 100.0
+K-fold 5
+Number of components: 57
+Regularization parameter: 100.0
+K-fold 6
+Number of components: 60
+Regularization parameter: 100.0
+K-fold 7
+Number of components: 57
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 56
+Regularization parameter: 100.0
+K-fold 9
+Number of components: 56
+Regularization parameter: 100.0
+K-fold 10
+Number of components: 56
+Regularization parameter: 100.0
+cryptominisat IBM-SWV RMSE: 1.2680426568361434 R2: 0.510793332565812
+
+
+Ridge regression model with PCA feature selection - attempt 0
+K-fold 1
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 2
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 2
+Regularization parameter: 1e-06
+cryptominisat IBM-ALL RMSE: 1.796970021544298 R2: 0.02995027998399713
+Ridge regression model with PCA feature selection - attempt 1
+K-fold 1
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 10
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 10
+Regularization parameter: 1e-06
+cryptominisat IBM-ALL RMSE: 1.6824531393234212 R2: 0.14964888702447576
+Ridge regression model with PCA feature selection - attempt 2
+K-fold 1
+Number of components: 53
+Regularization parameter: 100.0
+K-fold 2
+Number of components: 52
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 51
+Regularization parameter: 100.0
+K-fold 4
+Number of components: 52
+Regularization parameter: 100.0
+K-fold 5
+Number of components: 53
+Regularization parameter: 100.0
+K-fold 6
+Number of components: 50
+Regularization parameter: 100.0
+K-fold 7
+Number of components: 51
+Regularization parameter: 100.0
+K-fold 8
+Number of components: 51
+Regularization parameter: 100.0
+K-fold 9
+Number of components: 51
+Regularization parameter: 100.0
+K-fold 10
+Number of components: 51
+Regularization parameter: 1e-06
+cryptominisat IBM-ALL RMSE: 1.2741909097087676 R2: 0.5122679043765346
+
+
+Ridge regression model with PCA feature selection - attempt 0
+K-fold 1
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 3
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 3
+Regularization parameter: 1e-06
+cryptominisat SWV RMSE: 1.0702495537333785 R2: 0.5642915545682323
+Ridge regression model with PCA feature selection - attempt 1
+K-fold 1
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 2
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 3
+Number of components: 15
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 5
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 7
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 8
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 9
+Number of components: 14
+Regularization parameter: 1e-06
+K-fold 10
+Number of components: 14
+Regularization parameter: 1e-06
+cryptominisat SWV RMSE: 0.9347354255748451 R2: 0.6676441925210049
+Ridge regression model with PCA feature selection - attempt 2
+K-fold 1
+Number of components: 66
+Regularization parameter: 100.0
+K-fold 2
+Number of components: 66
+Regularization parameter: 100.0
+K-fold 3
+Number of components: 69
+Regularization parameter: 1e-06
+K-fold 4
+Number of components: 65
+Regularization parameter: 100.0
+K-fold 5
+Number of components: 65
+Regularization parameter: 1e-06
+K-fold 6
+Number of components: 67
+Regularization parameter: 100.0
+K-fold 7
+Number of components: 65
+Regularization parameter: 100.0
+K-fold 8
+Number of components: 66
+Regularization parameter: 100.0
+K-fold 9
+Number of components: 66
+Regularization parameter: 100.0
+K-fold 10
+Number of components: 67
+Regularization parameter: 100.0
+cryptominisat SWV RMSE: 1.0901208366304602 R2: 0.5479617875067329
+
+
+
+
+
