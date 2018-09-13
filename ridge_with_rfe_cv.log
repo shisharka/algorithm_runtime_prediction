@@ -1263,4 +1263,1019 @@ K-fold 3
 Before feature selection:
 Regularization parameter: 10.0
 ---------------------------------------
-Selected 
+Selected 41 features in the first phase
+Selected 5 features in the second phase
+Regularization parameter: 10.0
+K-fold 4
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 12 features in the first phase
+Selected 32 features in the second phase
+Regularization parameter: 10.0
+K-fold 5
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 1 features in the first phase
+Selected 2 features in the second phase
+Regularization parameter: 1e-06
+K-fold 6
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 7 features in the first phase
+Selected 33 features in the second phase
+Regularization parameter: 100.0
+K-fold 7
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 9 features in the first phase
+Selected 23 features in the second phase
+Regularization parameter: 0.1
+K-fold 8
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 1 features in the first phase
+Selected 2 features in the second phase
+Regularization parameter: 1e-06
+K-fold 9
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 1 features in the first phase
+Selected 2 features in the second phase
+Regularization parameter: 1e-06
+K-fold 10
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 1 features in the first phase
+Selected 2 features in the second phase
+Regularization parameter: 1e-06
+minisat SAT_Competition_RACE_INDU RMSE: 1.0957998393929662 R2: 0.5918834965745692
+
+
+Ridge regression model with recursive feature elimination (number of features determined with cv) - attempt 0
+K-fold 1
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 321 features in the second phase
+Regularization parameter: 10.0
+K-fold 2
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 419 features in the second phase
+Regularization parameter: 10.0
+K-fold 3
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 292 features in the second phase
+Regularization parameter: 0.01
+K-fold 4
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 483 features in the second phase
+Regularization parameter: 10.0
+K-fold 5
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 221 features in the second phase
+Regularization parameter: 0.1
+K-fold 6
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 338 features in the second phase
+Regularization parameter: 1.0
+K-fold 7
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 63 features in the second phase
+Regularization parameter: 0.001
+K-fold 8
+Before feature selection:
+Regularization parameter: 0.1
+---------------------------------------
+Selected 30 features in the first phase
+Selected 349 features in the second phase
+Regularization parameter: 0.001
+K-fold 9
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 413 features in the second phase
+Regularization parameter: 10.0
+K-fold 10
+Before feature selection:
+Regularization parameter: 0.1
+---------------------------------------
+Selected 30 features in the first phase
+Selected 56 features in the second phase
+Regularization parameter: 0.1
+minisat IBM-SWV RMSE: 0.8959422118573381 R2: 0.6955275929762768
+Ridge regression model with recursive feature elimination (number of features determined with cv) - attempt 1
+K-fold 1
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 56 features in the first phase
+Selected 291 features in the second phase
+Regularization parameter: 1.0
+K-fold 2
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 94 features in the first phase
+Selected 74 features in the second phase
+Regularization parameter: 0.1
+K-fold 3
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 116 features in the first phase
+Selected 689 features in the second phase
+Regularization parameter: 1.0
+K-fold 4
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 99 features in the first phase
+Selected 273 features in the second phase
+Regularization parameter: 1.0
+K-fold 5
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 52 features in the first phase
+Selected 142 features in the second phase
+Regularization parameter: 0.01
+K-fold 6
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 104 features in the first phase
+Selected 299 features in the second phase
+Regularization parameter: 1.0
+K-fold 7
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 81 features in the first phase
+Selected 520 features in the second phase
+Regularization parameter: 1.0
+K-fold 8
+Before feature selection:
+Regularization parameter: 0.1
+---------------------------------------
+Selected 134 features in the first phase
+Selected 55 features in the second phase
+Regularization parameter: 0.1
+K-fold 9
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 57 features in the first phase
+Selected 125 features in the second phase
+Regularization parameter: 0.01
+K-fold 10
+Before feature selection:
+Regularization parameter: 0.1
+---------------------------------------
+Selected 80 features in the first phase
+Selected 118 features in the second phase
+Regularization parameter: 0.1
+minisat IBM-SWV RMSE: 0.3578506811595327 R2: 0.9514273677125077
+
+
+Ridge regression model with recursive feature elimination (number of features determined with cv) - attempt 0
+K-fold 1
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 93 features in the second phase
+Regularization parameter: 1.0
+K-fold 2
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 118 features in the second phase
+Regularization parameter: 100.0
+K-fold 3
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 21 features in the second phase
+Regularization parameter: 1.0
+K-fold 4
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 16 features in the second phase
+Regularization parameter: 1.0
+K-fold 5
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 78 features in the second phase
+Regularization parameter: 10.0
+K-fold 6
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 79 features in the second phase
+Regularization parameter: 10.0
+K-fold 7
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 5 features in the second phase
+Regularization parameter: 10.0
+K-fold 8
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 42 features in the second phase
+Regularization parameter: 100.0
+K-fold 9
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 26 features in the second phase
+Regularization parameter: 10.0
+K-fold 10
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 8 features in the second phase
+Regularization parameter: 10.0
+minisat IBM-ALL RMSE: 0.5847324172636866 R2: 0.8879871542595965
+Ridge regression model with recursive feature elimination (number of features determined with cv) - attempt 1
+K-fold 1
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 11 features in the first phase
+Selected 74 features in the second phase
+Regularization parameter: 0.1
+K-fold 2
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 12 features in the first phase
+Selected 52 features in the second phase
+Regularization parameter: 0.01
+K-fold 3
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 11 features in the first phase
+Selected 59 features in the second phase
+Regularization parameter: 0.01
+K-fold 4
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 14 features in the first phase
+Selected 96 features in the second phase
+Regularization parameter: 1.0
+K-fold 5
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 11 features in the first phase
+Selected 61 features in the second phase
+Regularization parameter: 0.001
+K-fold 6
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 15 features in the first phase
+Selected 128 features in the second phase
+Regularization parameter: 1.0
+K-fold 7
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 17 features in the first phase
+Selected 149 features in the second phase
+Regularization parameter: 10.0
+K-fold 8
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 15 features in the first phase
+Selected 121 features in the second phase
+Regularization parameter: 0.1
+K-fold 9
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 14 features in the first phase
+Selected 100 features in the second phase
+Regularization parameter: 10.0
+K-fold 10
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 16 features in the first phase
+Selected 133 features in the second phase
+Regularization parameter: 0.1
+minisat IBM-ALL RMSE: 0.8382337956229444 R2: 0.7698113950650519
+
+
+Ridge regression model with recursive feature elimination (number of features determined with cv) - attempt 0
+K-fold 1
+Before feature selection:
+Regularization parameter: 1.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 62 features in the second phase
+Regularization parameter: 1.0
+K-fold 2
+Before feature selection:
+Regularization parameter: 0.1
+---------------------------------------
+Selected 30 features in the first phase
+Selected 43 features in the second phase
+Regularization parameter: 0.1
+K-fold 3
+Before feature selection:
+Regularization parameter: 0.1
+---------------------------------------
+Selected 30 features in the first phase
+Selected 19 features in the second phase
+Regularization parameter: 10.0
+K-fold 4
+Before feature selection:
+Regularization parameter: 0.1
+---------------------------------------
+Selected 30 features in the first phase
+Selected 89 features in the second phase
+Regularization parameter: 0.1
+K-fold 5
+Before feature selection:
+Regularization parameter: 0.1
+---------------------------------------
+Selected 30 features in the first phase
+Selected 38 features in the second phase
+Regularization parameter: 0.1
+K-fold 6
+Before feature selection:
+Regularization parameter: 0.1
+---------------------------------------
+Selected 30 features in the first phase
+Selected 39 features in the second phase
+Regularization parameter: 0.01
+K-fold 7
+Before feature selection:
+Regularization parameter: 1.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 32 features in the second phase
+Regularization parameter: 1e-06
+K-fold 8
+Before feature selection:
+Regularization parameter: 0.1
+---------------------------------------
+Selected 30 features in the first phase
+Selected 19 features in the second phase
+Regularization parameter: 1e-05
+K-fold 9
+Before feature selection:
+Regularization parameter: 1.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 85 features in the second phase
+Regularization parameter: 0.1
+K-fold 10
+Before feature selection:
+Regularization parameter: 0.1
+---------------------------------------
+Selected 30 features in the first phase
+Selected 477 features in the second phase
+Regularization parameter: 10.0
+minisat SWV RMSE: 0.25258628591355253 R2: 0.9218242406803886
+Ridge regression model with recursive feature elimination (number of features determined with cv) - attempt 1
+K-fold 1
+Before feature selection:
+Regularization parameter: 1.0
+---------------------------------------
+Selected 90 features in the first phase
+Selected 177 features in the second phase
+Regularization parameter: 0.1
+K-fold 2
+Before feature selection:
+Regularization parameter: 0.1
+---------------------------------------
+Selected 38 features in the first phase
+Selected 94 features in the second phase
+Regularization parameter: 0.01
+K-fold 3
+Before feature selection:
+Regularization parameter: 0.1
+---------------------------------------
+Selected 33 features in the first phase
+Selected 10 features in the second phase
+Regularization parameter: 10.0
+K-fold 4
+Before feature selection:
+Regularization parameter: 0.1
+---------------------------------------
+Selected 41 features in the first phase
+Selected 131 features in the second phase
+Regularization parameter: 0.01
+K-fold 5
+Before feature selection:
+Regularization parameter: 0.1
+---------------------------------------
+Selected 33 features in the first phase
+Selected 53 features in the second phase
+Regularization parameter: 0.0001
+K-fold 6
+Before feature selection:
+Regularization parameter: 0.1
+---------------------------------------
+Selected 63 features in the first phase
+Selected 26 features in the second phase
+Regularization parameter: 0.01
+K-fold 7
+Before feature selection:
+Regularization parameter: 1.0
+---------------------------------------
+Selected 70 features in the first phase
+Selected 43 features in the second phase
+Regularization parameter: 0.1
+K-fold 8
+Before feature selection:
+Regularization parameter: 0.1
+---------------------------------------
+Selected 36 features in the first phase
+Selected 27 features in the second phase
+Regularization parameter: 0.0001
+K-fold 9
+Before feature selection:
+Regularization parameter: 1.0
+---------------------------------------
+Selected 75 features in the first phase
+Selected 24 features in the second phase
+Regularization parameter: 1e-06
+K-fold 10
+Before feature selection:
+Regularization parameter: 0.1
+---------------------------------------
+Selected 85 features in the first phase
+Selected 553 features in the second phase
+Regularization parameter: 0.01
+minisat SWV RMSE: 0.3190046658210471 R2: 0.8753056876397283
+
+
+
+
+
+Ridge regression model with recursive feature elimination (number of features determined with cv) - attempt 0
+K-fold 1
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 430 features in the second phase
+Regularization parameter: 100.0
+K-fold 2
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 288 features in the second phase
+Regularization parameter: 10.0
+K-fold 3
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 34 features in the second phase
+Regularization parameter: 1.0
+K-fold 4
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 2 features in the second phase
+Regularization parameter: 1e-06
+K-fold 5
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 199 features in the second phase
+Regularization parameter: 10.0
+K-fold 6
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 1 features in the second phase
+Regularization parameter: 100.0
+K-fold 7
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 32 features in the second phase
+Regularization parameter: 1e-06
+K-fold 8
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 396 features in the second phase
+Regularization parameter: 100.0
+K-fold 9
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 1 features in the second phase
+Regularization parameter: 100.0
+K-fold 10
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 9 features in the second phase
+Regularization parameter: 1.0
+cryptominisat SAT_Competition_RACE_INDU RMSE: 1.1453902609037503 R2: 0.5748838491678994
+Ridge regression model with recursive feature elimination (number of features determined with cv) - attempt 1
+K-fold 1
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 2 features in the first phase
+Selected 4 features in the second phase
+Regularization parameter: 10.0
+K-fold 2
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 2 features in the first phase
+Selected 5 features in the second phase
+Regularization parameter: 0.001
+K-fold 3
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 37 features in the first phase
+Selected 5 features in the second phase
+Regularization parameter: 1.0
+K-fold 4
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 2 features in the first phase
+Selected 5 features in the second phase
+Regularization parameter: 1.0
+K-fold 5
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 8 features in the first phase
+Selected 29 features in the second phase
+Regularization parameter: 10.0
+K-fold 6
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 3 features in the first phase
+Selected 2 features in the second phase
+Regularization parameter: 1e-06
+K-fold 7
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 2 features in the first phase
+Selected 4 features in the second phase
+Regularization parameter: 10.0
+K-fold 8
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 2 features in the first phase
+Selected 4 features in the second phase
+Regularization parameter: 100.0
+K-fold 9
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 6 features in the first phase
+Selected 26 features in the second phase
+Regularization parameter: 1.0
+K-fold 10
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 68 features in the first phase
+Selected 3 features in the second phase
+Regularization parameter: 1.0
+cryptominisat SAT_Competition_RACE_INDU RMSE: 1.241398998363729 R2: 0.5006288895604649
+
+
+Ridge regression model with recursive feature elimination (number of features determined with cv) - attempt 0
+K-fold 1
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 406 features in the second phase
+Regularization parameter: 10.0
+K-fold 2
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 256 features in the second phase
+Regularization parameter: 0.1
+K-fold 3
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 431 features in the second phase
+Regularization parameter: 1.0
+K-fold 4
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 110 features in the second phase
+Regularization parameter: 0.1
+K-fold 5
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 456 features in the second phase
+Regularization parameter: 1.0
+K-fold 6
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 432 features in the second phase
+Regularization parameter: 1.0
+K-fold 7
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 184 features in the second phase
+Regularization parameter: 1.0
+K-fold 8
+Before feature selection:
+Regularization parameter: 1.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 229 features in the second phase
+Regularization parameter: 1.0
+K-fold 9
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 194 features in the second phase
+Regularization parameter: 0.1
+K-fold 10
+Before feature selection:
+Regularization parameter: 1.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 55 features in the second phase
+Regularization parameter: 1e-05
+cryptominisat IBM-SWV RMSE: 0.649381981572856 R2: 0.871700457202674
+Ridge regression model with recursive feature elimination (number of features determined with cv) - attempt 1
+K-fold 1
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 86 features in the first phase
+Selected 552 features in the second phase
+Regularization parameter: 10.0
+K-fold 2
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 64 features in the first phase
+Selected 431 features in the second phase
+Regularization parameter: 1.0
+K-fold 3
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 70 features in the first phase
+Selected 279 features in the second phase
+Regularization parameter: 1.0
+K-fold 4
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 64 features in the first phase
+Selected 84 features in the second phase
+Regularization parameter: 1.0
+K-fold 5
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 94 features in the first phase
+Selected 548 features in the second phase
+Regularization parameter: 10.0
+K-fold 6
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 133 features in the first phase
+Selected 50 features in the second phase
+Regularization parameter: 1.0
+K-fold 7
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 67 features in the first phase
+Selected 89 features in the second phase
+Regularization parameter: 0.01
+K-fold 8
+Before feature selection:
+Regularization parameter: 1.0
+---------------------------------------
+Selected 51 features in the first phase
+Selected 56 features in the second phase
+Regularization parameter: 1e-05
+K-fold 9
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 70 features in the first phase
+Selected 67 features in the second phase
+Regularization parameter: 0.01
+K-fold 10
+Before feature selection:
+Regularization parameter: 1.0
+---------------------------------------
+Selected 50 features in the first phase
+Selected 254 features in the second phase
+Regularization parameter: 0.1
+cryptominisat IBM-SWV RMSE: 0.6804410760268133 R2: 0.8591341610991245
+
+
+Ridge regression model with recursive feature elimination (number of features determined with cv) - attempt 0
+K-fold 1
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 425 features in the second phase
+Regularization parameter: 100.0
+K-fold 2
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 120 features in the second phase
+Regularization parameter: 10.0
+K-fold 3
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 419 features in the second phase
+Regularization parameter: 100.0
+K-fold 4
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 461 features in the second phase
+Regularization parameter: 0.1
+K-fold 5
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 440 features in the second phase
+Regularization parameter: 100.0
+K-fold 6
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 488 features in the second phase
+Regularization parameter: 10.0
+K-fold 7
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 215 features in the second phase
+Regularization parameter: 1.0
+K-fold 8
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 413 features in the second phase
+Regularization parameter: 1.0
+K-fold 9
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 426 features in the second phase
+Regularization parameter: 100.0
+K-fold 10
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 486 features in the second phase
+Regularization parameter: 1.0
+cryptominisat IBM-ALL RMSE: 1.1169459883759925 R2: 0.6252197676622528
+Ridge regression model with recursive feature elimination (number of features determined with cv) - attempt 1
+K-fold 1
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 10 features in the first phase
+Selected 31 features in the second phase
+Regularization parameter: 0.1
+K-fold 2
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 9 features in the first phase
+Selected 34 features in the second phase
+Regularization parameter: 0.1
+K-fold 3
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 5 features in the first phase
+Selected 16 features in the second phase
+Regularization parameter: 0.001
+K-fold 4
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 7 features in the first phase
+Selected 17 features in the second phase
+Regularization parameter: 1.0
+K-fold 5
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 7 features in the first phase
+Selected 35 features in the second phase
+Regularization parameter: 0.01
+K-fold 6
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 7 features in the first phase
+Selected 20 features in the second phase
+Regularization parameter: 1.0
+K-fold 7
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 10 features in the first phase
+Selected 44 features in the second phase
+Regularization parameter: 0.01
+K-fold 8
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 4 features in the first phase
+Selected 14 features in the second phase
+Regularization parameter: 1.0
+K-fold 9
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 7 features in the first phase
+Selected 26 features in the second phase
+Regularization parameter: 0.01
+K-fold 10
+Before feature selection:
+Regularization parameter: 100.0
+---------------------------------------
+Selected 10 features in the first phase
+Selected 30 features in the second phase
+Regularization parameter: 0.1
+cryptominisat IBM-ALL RMSE: 0.7788406651178515 R2: 0.8177743245192299
+
+
+Ridge regression model with recursive feature elimination (number of features determined with cv) - attempt 0
+K-fold 1
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 30 features in the second phase
+Regularization parameter: 10.0
+K-fold 2
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 16 features in the second phase
+Regularization parameter: 1.0
+K-fold 3
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 32 features in the second phase
+Regularization parameter: 10.0
+K-fold 4
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 150 features in the second phase
+Regularization parameter: 10.0
+K-fold 5
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 59 features in the second phase
+Regularization parameter: 10.0
+K-fold 6
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 107 features in the second phase
+Regularization parameter: 10.0
+K-fold 7
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 218 features in the second phase
+Regularization parameter: 10.0
+K-fold 8
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 59 features in the second phase
+Regularization parameter: 10.0
+K-fold 9
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 27 features in the second phase
+Regularization parameter: 10.0
+K-fold 10
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 30 features in the first phase
+Selected 28 features in the second phase
+Regularization parameter: 10.0
+cryptominisat SWV RMSE: 0.7023532608387792 R2: 0.8123549668630665
+Ridge regression model with recursive feature elimination (number of features determined with cv) - attempt 1
+K-fold 1
+Before feature selection:
+Regularization parameter: 10.0
+---------------------------------------
+Selected 122 features in the first phase
+Selected 38 features in the second phase
+Regularization parameter: 0.001
+K-fold 2
+Before feature selection:
