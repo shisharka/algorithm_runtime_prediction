@@ -62,10 +62,6 @@ for dataset in datasets:
 
   gcrf_predictions = np.load('gcrf_predictions/' + dataset + '_gcrf_' + model + '.npy')
   rf_predictions = np.load('gcrf_predictions/' + dataset + '_rf_' + model + '.npy')
-  # gcrf_predictions = np.load('predictions/' + dataset + '_gcrf_tweaking_sim_metaparam.npy')
-  # rf_predictions = np.load('predictions/' + dataset + '_rf_tweaking_sim_metaparam.npy')
-  # gcrf_predictions = np.load('gcrf_svd_predictions/' + dataset + '_gcrf_svd_tweaking_dim_reduction.npy')
-  # rf_predictions = np.load('gcrf_svd_predictions/' + dataset + '_rf_svd_tweaking_dim_reduction.npy')
 
   num_solvers = Y.shape[1]
 
