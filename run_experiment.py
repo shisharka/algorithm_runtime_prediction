@@ -38,42 +38,42 @@ for solver_name, set_names in SOLVER_SET_NAMES.items():
 
     dataset = set_name + '-' + solver_name
 
-    # print('Ridge regression model')
-    # rmse, r2 = rr_plain.validate(X, Y, dataset)
-    # print(solver_name, set_name, 'RMSE:', rmse, 'R2:', r2)
+    print('Ridge regression model')
+    rmse, r2 = rr_plain.validate(X, Y, dataset)
+    print(solver_name, set_name, 'RMSE:', rmse, 'R2:', r2)
 
     print('Ridge regression model with interactions')
     rmse, r2 = rr_plain2.validate(X, Y, dataset)
     print(solver_name, set_name, 'RMSE:', rmse, 'R2:', r2)
 
-    # for attempt in [0, 1, 2]:
-    #   print('Ridge regression model with forward feature selection - attempt', attempt)
-    #   rmse, r2 = rr_ffs.validate(X, Y, dataset, attempt)
-    #   print(solver_name, set_name, 'RMSE:', rmse, 'R2:', r2)
+    for attempt in [0, 1, 2]:
+      print('Ridge regression model with forward feature selection - attempt', attempt)
+      rmse, r2 = rr_ffs.validate(X, Y, dataset, attempt)
+      print(solver_name, set_name, 'RMSE:', rmse, 'R2:', r2)
 
-    # for attempt in [0, 1, 2]:
-    #   print('Ridge regression model with PCA feature selection - attempt', attempt)
-    #   rmse, r2 = rr_pca.validate(X, Y, dataset, attempt)
-    #   print(solver_name, set_name, 'RMSE:', rmse, 'R2:', r2)
+    for attempt in [0, 1, 2]:
+      print('Ridge regression model with PCA feature selection - attempt', attempt)
+      rmse, r2 = rr_pca.validate(X, Y, dataset, attempt)
+      print(solver_name, set_name, 'RMSE:', rmse, 'R2:', r2)
 
-    # for attempt in [0, 1, 2, 3, 4]:
-    #   print('Ridge regression model with recursive feature elimination - attempt', attempt)
-    #   rmse, r2 = rr_rfe.validate(X, Y, dataset, attempt)
-    #   print(solver_name, set_name, 'RMSE:', rmse, 'R2:', r2)
+    for attempt in [0, 1, 2, 3, 4]:
+      print('Ridge regression model with recursive feature elimination - attempt', attempt)
+      rmse, r2 = rr_rfe.validate(X, Y, dataset, attempt)
+      print(solver_name, set_name, 'RMSE:', rmse, 'R2:', r2)
 
-    # for attempt in [0, 1]:
-    #   print('Ridge regression model with recursive feature elimination (number of features determined with cv) - attempt', attempt)
-    #   rmse, r2 = rr_rfe_cv.validate(X, Y, dataset, attempt)
-    #   print(solver_name, set_name, 'RMSE:', rmse, 'R2:', r2)
+    for attempt in [0, 1]:
+      print('Ridge regression model with recursive feature elimination (number of features determined with cv) - attempt', attempt)
+      rmse, r2 = rr_rfe_cv.validate(X, Y, dataset, attempt)
+      print(solver_name, set_name, 'RMSE:', rmse, 'R2:', r2)
 
-    # for attempt in [0, 1, 2, 3, 4, 5, 6, 7]:
-    #   print('Random forest model - attempt', attempt)
-    #   rmse, r2 = rf.validate(X, Y, dataset, attempt)
-    #   print(solver_name, set_name, 'RMSE:', rmse, 'R2:', r2)
+    for attempt in [0, 1, 2, 3, 4, 5, 6, 7]:
+      print('Random forest model - attempt', attempt)
+      rmse, r2 = rf.validate(X, Y, dataset, attempt)
+      print(solver_name, set_name, 'RMSE:', rmse, 'R2:', r2)
 
-    # print('Random forest model with tuning metaparams')
-    # rmse, r2 = rf2.validate(X, Y, dataset)
-    # print(solver_name, set_name, 'RMSE:', rmse, 'R2:', r2)
+    print('Random forest model with tuning metaparams')
+    rmse, r2 = rf2.validate(X, Y, dataset)
+    print(solver_name, set_name, 'RMSE:', rmse, 'R2:', r2)
 
     print("\n")
 

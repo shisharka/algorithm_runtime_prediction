@@ -76,3 +76,7 @@ for dataset in datasets:
     print('RF RMSE:  ', round(np.sqrt(mean_squared_error(Y[:, i], rf_predictions[:, i])), 6), '|',
           'RF R2:  ', round(r2_score(Y[:, i], rf_predictions[:, i]), 6))
     print("\n")
+  print('General evaluation:')
+  n = Y.shape[0] * num_solvers
+  print(np.sqrt(mean_squared_error(Y.reshape(n), gcrf_predictions.reshape(n))))
+  print(r2_score(Y.reshape(n), gcrf_predictions.reshape(n)))
